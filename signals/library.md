@@ -24,7 +24,7 @@ Something hits a whole segment at once. Use it to choose the segment, then rank 
 - **Usually a:** pitch
 - **Find it with Clay:** Company search by the industries, sizes and countries the rule covers. Then a Custom data point: 'Does this company say publicly that it is preparing for [regulation]? Quote the source.'
 - **Find it without Clay:** The regulator's scope definition, industry association pages, news. Ask your AI who is in scope and by when.
-- **Message angle:** The [regulation] deadline is [date] for companies like yours. Who owns getting ready for it?
+- **Message angle:** [Regulation] applies to companies like yours from [date]. Want a free check of where [company] stands against it, so you know what's left to do?
 
 ### I2. A vendor announces the end of a product the segment relies on
 
@@ -34,7 +34,7 @@ Something hits a whole segment at once. Use it to choose the segment, then rank 
 - **Usually a:** pitch
 - **Find it with Clay:** Company search with technographics.any(product = "[product]") or vendor = "[vendor]".
 - **Find it without Clay:** The vendor's announcement, then BuiltWith or Wappalyzer, case studies and job posts that name the product.
-- **Message angle:** [Product] stops being supported on [date]. Have you picked what replaces it?
+- **Message angle:** [Product] stops being supported on [date]. Want a side-by-side of what teams like yours are moving to, with the migration effort for each?
 
 ### I3. A competitor shuts down, is acquired or raises prices
 
@@ -44,7 +44,7 @@ Something hits a whole segment at once. Use it to choose the segment, then rank 
 - **Usually a:** pitch
 - **Find it with Clay:** Company search with technographics.any(vendor = "[competitor]").
 - **Find it without Clay:** News, the competitor's own customer logos and case studies, G2 and Reddit threads about the change.
-- **Message angle:** Saw [competitor] [changed pricing / was acquired]. Are you staying, or looking at options?
+- **Message angle:** Saw [competitor] [changed pricing / was acquired]. Want a cost comparison for a team your size before the renewal comes up?
 
 ### I4. A cost or market shock hits the segment
 
@@ -54,7 +54,7 @@ Something hits a whole segment at once. Use it to choose the segment, then rank 
 - **Usually a:** touchpoint
 - **Find it with Clay:** Company search by industry and region, then Recent News per company to see who is affected.
 - **Find it without Clay:** Industry news and association reports.
-- **Message angle:** How is [shock] showing up in your numbers so far?
+- **Message angle:** [Shock] usually shows up first in [cost line] for [segment] companies. Want a one-page view of how others in [segment] are handling it?
 
 ### I5. A trade fair or conference the segment attends
 
@@ -64,7 +64,7 @@ Something hits a whole segment at once. Use it to choose the segment, then rank 
 - **Usually a:** touchpoint
 - **Find it with Clay:** Paste the exhibitor list into your chat, then a Custom data point per company: 'What is this company presenting at [event]?'
 - **Find it without Clay:** The exhibitor directory on the event website. Most list company, stand and category.
-- **Message angle:** Are you at [event] next week? Happy to stop by your stand at [hall].
+- **Message angle:** Saw [company] is exhibiting at [event] in [month]. If I put together a list of attendees who match your buyers, would that help your team book meetings before the show?
 
 ## Account level
 
@@ -78,7 +78,7 @@ Something changes at one company. Find the company first, then the person who ow
 - **Usually a:** pitch
 - **Find it with Clay:** Company search: jobs.exists(job_title is_similar_to ("[role]") and job_posted_date >= today() - interval 30 days and job_still_open = true). Then verify with a Custom data point that asks for location, date and link.
 - **Find it without Clay:** Job boards that show dates (in Germany: arbeitnow.com), then the company's own careers page. For companies on Ashby, https://api.ashbyhq.com/posting-api/job-board/[company] lists every open job with its publish date. Search engines often ignore site: searches on job platforms.
-- **Message angle:** Saw you're hiring a [role] for [market]. [What that usually means]. Who's [owning that part]?
+- **Message angle:** Saw you're hiring a [role] for [market]. [What that usually means for them]. If I put together [something the new hire or team can use in week one], would that be useful?
 
 ### A2. A job post that names a tool or a problem
 
@@ -88,7 +88,7 @@ Something changes at one company. Find the company first, then the person who ow
 - **Usually a:** pitch
 - **Find it with Clay:** Company search: jobs.exists(job_description contains ("[tool or phrase]") and job_posted_date >= today() - interval 30 days). Add company_size and industry filters: without them this returns the biggest employers first (SAP, Bosch). Read the posting for tools they already use: a post that names a competitor needs a different message.
 - **Find it without Clay:** Search the phrase on job boards: "[tool]" "[role]" site:jobs.ashbyhq.com, or ask your AI to read the careers page.
-- **Message angle:** Your [role] posting mentions [project]. Are you building that in-house or with a partner?
+- **Message angle:** Your [role] posting mentions [project or tool]. Want a short plan for how teams your size run that project, with the effort for each step?
 
 ### A3. The first hire in a new function
 
@@ -98,7 +98,7 @@ Something changes at one company. Find the company first, then the person who ow
 - **Usually a:** pitch
 - **Find it with Clay:** Company search with a job post for the role, then a Custom data point: 'Does this company already employ anyone in [function]? Is this the first hire?'
 - **Find it without Clay:** LinkedIn people search at the company for the function. If nobody holds it, it's a first hire.
-- **Message angle:** Looks like [role] is a new team at [company]. What's the first thing they need to get running?
+- **Message angle:** Looks like [role] is a new team at [company]. Want the setup we'd use for a new [function] team's first 90 days?
 
 ### A4. Headcount grew 20% or more in 6 months
 
@@ -108,7 +108,7 @@ Something changes at one company. Find the company first, then the person who ow
 - **Usually a:** touchpoint
 - **Find it with Clay:** Company search: employee_growth_6mo >= 1.2 (1.2 means +20%). Or the Headcount Growth data point on your own list.
 - **Find it without Clay:** The employee count on the company's LinkedIn page over time, or the number of open jobs on its careers page.
-- **Message angle:** You've grown about [x]% since [month]. What broke first?
+- **Message angle:** You've grown about [x]% since [month]. [Process] usually breaks first at that pace. Want a quick check of how yours holds up at twice the size?
 
 ### A5. A funding round
 
@@ -118,7 +118,7 @@ Something changes at one company. Find the company first, then the person who ow
 - **Usually a:** touchpoint
 - **Find it with Clay:** On your own list: the Latest Funding data point. In a search, combine with a job post or headcount growth.
 - **Find it without Clay:** Crunchbase, Dealroom, Tech.eu, EU-Startups, TechCrunch, or ask your AI: 'Series A rounds in German B2B software announced in the last 60 days'.
-- **Message angle:** Saw the [round] on [date]. With [plan from the announcement], how are you handling [problem you solve]?
+- **Message angle:** Saw the [round] in [month]. After a round, [problem you solve] usually comes up within months. Want [a useful asset for it, e.g. the plan we use for a company's first two SDRs]?
 
 ### A6. Expansion to a new country or a new office
 
@@ -128,7 +128,7 @@ Something changes at one company. Find the company first, then the person who ow
 - **Usually a:** pitch
 - **Find it with Clay:** Company search: jobs.exists(location contains "[new country]" and job_posted_date >= today() - interval 60 days) plus a headquarters country that is not the new one and a company_size filter, then a Custom data point: 'Has this company announced expansion into [country]? Is it new for them? Link the source.' Without a size filter this returns big multinationals first. Expect many to fail: companies that have been in the country for years, and roles copied across many countries.
 - **Find it without Clay:** Press releases, job posts in the new country, new office addresses on the website.
-- **Message angle:** Saw you're hiring your first people in [country]. Who's building the pipeline there?
+- **Message angle:** Saw you're hiring your first people in [country]. Want a list of the first 50 local accounts we'd go after, so the new team has pipeline from day one?
 
 ### A7. A new product or product line launched
 
@@ -138,7 +138,7 @@ Something changes at one company. Find the company first, then the person who ow
 - **Usually a:** touchpoint
 - **Find it with Clay:** The Recent News data point, or a Custom data point: 'What did this company launch in the last 60 days? Link it.'
 - **Find it without Clay:** The company's changelog, blog, press page, Product Hunt.
-- **Message angle:** Saw [product] went live in [month]. Who are you trying to get it in front of first?
+- **Message angle:** Saw [product] went live in [month]. Want a list of [segment] companies that look like a fit for it, to test the launch message on?
 
 ### A8. An acquisition: they bought someone or were bought
 
@@ -148,7 +148,7 @@ Something changes at one company. Find the company first, then the person who ow
 - **Usually a:** pitch
 - **Find it with Clay:** The Recent News data point, or a Custom data point: 'Has this company acquired or been acquired in the last 90 days?'
 - **Find it without Clay:** Press releases and business news.
-- **Message angle:** Congrats on bringing [company] in. Are you merging [system] or running both for now?
+- **Message angle:** Saw [company] brought in [acquired company]. Running two [systems] side by side usually costs more than planned. Want a short plan for merging them, with the effort for each step?
 
 ### A9. A tool was added to or removed from their stack
 
@@ -158,7 +158,7 @@ Something changes at one company. Find the company first, then the person who ow
 - **Usually a:** touchpoint
 - **Find it with Clay:** The Tech Stack data point, or company search with technographics.any(vendor = "[tool]").
 - **Find it without Clay:** BuiltWith, Wappalyzer, job posts that mention the tool, the company's integration pages.
-- **Message angle:** Saw you moved to [tool]. Has [adjacent process] moved with it?
+- **Message angle:** Saw you moved to [tool]. [Adjacent process] usually has to move with it. Want the setup we use to connect the two?
 
 ### A10. Uses a competitor or a complementary tool
 
@@ -168,7 +168,7 @@ Something changes at one company. Find the company first, then the person who ow
 - **Usually a:** touchpoint
 - **Find it with Clay:** Company search with technographics.any(vendor = "[tool]"). Tested: technographics.any(vendor = "HubSpot") works.
 - **Find it without Clay:** BuiltWith or Wappalyzer, the competitor's customer logos and case studies.
-- **Message angle:** Combine with a timing signal before writing. Alone: 'How is [tool] working for [use case]?'
+- **Message angle:** Combine with a timing signal before writing. Alone: 'Teams on [tool] often [specific gap]. Want to see how [your product] closes it for [their use case]?'
 
 ### A11. A new executive joined the company (CEO, CRO, CMO, CFO)
 
@@ -188,7 +188,7 @@ Something changes at one company. Find the company first, then the person who ow
 - **Usually a:** touchpoint
 - **Find it with Clay:** The Headcount Growth data point (a negative number), or the Recent News data point.
 - **Find it without Clay:** News, layoff trackers, LinkedIn posts from affected employees.
-- **Message angle:** Avoid mentioning the layoff. Lead with the workload: 'How is [team] covering [work] right now?'
+- **Message angle:** Avoid mentioning the layoff. Lead with the workload: '[Work] usually lands on fewer people after a reorganisation. Want a short look at how teams cover it with less?'
 
 ### A13. An award, ranking or certification
 
@@ -198,7 +198,7 @@ Something changes at one company. Find the company first, then the person who ow
 - **Usually a:** touchpoint
 - **Find it with Clay:** A Custom data point: 'Has this company won an award, made a ranking or earned a certification in the last 6 months? Link it.'
 - **Find it without Clay:** Ranking lists (for example growth rankings in trade press), certification announcements on LinkedIn.
-- **Message angle:** Saw you made [list]. What's the next bottleneck at that growth rate?
+- **Message angle:** Saw [company] made [list]. Growth at that rate usually strains [process]. Want a quick check of how yours holds up at twice the size?
 
 ### A14. Website traffic jumped or dropped
 
@@ -208,7 +208,7 @@ Something changes at one company. Find the company first, then the person who ow
 - **Usually a:** touchpoint
 - **Find it with Clay:** The Website Traffic data point on your list.
 - **Find it without Clay:** Similarweb's free view, or ask your AI to compare with last quarter if it can see traffic data.
-- **Message angle:** Looks like traffic to [site] changed a lot since [month]. Is that planned?
+- **Message angle:** Traffic to [site] changed a lot since [month]. Want a short breakdown of which pages and sources moved, from public data?
 
 ### A15. A public tender or request for proposals
 
@@ -218,7 +218,7 @@ Something changes at one company. Find the company first, then the person who ow
 - **Usually a:** pitch
 - **Find it with Clay:** Not a Clay search. Find the tender first, then use Clay to find the people at the buying organisation.
 - **Find it without Clay:** TED (ted.europa.eu) for the EU and national procurement portals. Ask your AI to search them by category code or keyword.
-- **Message angle:** Saw the tender for [scope], closing [date]. Are you open to a short call on [one requirement] before then?
+- **Message angle:** Saw the tender for [scope], closing [date]. Want our answer to [one requirement] now, so you can see if we fit before the deadline?
 
 ### A16. Public complaints about their current vendor
 
@@ -228,7 +228,7 @@ Something changes at one company. Find the company first, then the person who ow
 - **Usually a:** pitch
 - **Find it with Clay:** A Custom data point: 'Has anyone at this company publicly complained about [vendor] in the last 90 days (G2, Reddit, LinkedIn)? Quote and link it.'
 - **Find it without Clay:** G2, Capterra, Trustpilot, Reddit, LinkedIn posts. Search "[vendor]" with words like 'switching', 'alternative', 'frustrated'.
-- **Message angle:** Quote the pain, not the person: 'Teams moving off [vendor] usually mention [pain]. Is that on your list too?'
+- **Message angle:** Quote the pain, not the person: 'Teams moving off [vendor] usually mention [pain]. Want a side-by-side of how [your product] handles it, with the switching effort?'
 
 ## Prospect level
 
@@ -242,7 +242,7 @@ Something changes for one person. Write to that person about what changed for th
 - **Usually a:** pitch
 - **Find it with Clay:** Contact search at your target companies: experiences.any(is_current = true and job_title is_similar_to ("[title]") and start_date >= today() - interval 3 months). Or company search with people.exists(...) as in A11.
 - **Find it without Clay:** LinkedIn Sales Navigator's 'changed jobs in the past 90 days' filter, LinkedIn 'started a new position' posts.
-- **Message angle:** You started as [role] in [month]. What did you inherit that you'd change first?
+- **Message angle:** You started as [role] in [month]. Most new [role]s review [area] in their first 90 days. Want [a benchmark or audit of their area] to start from?
 
 ### P2. A past champion changed companies
 
@@ -252,7 +252,7 @@ Something changes for one person. Write to that person about what changed for th
 - **Usually a:** pitch
 - **Find it with Clay:** Contact search with your customers' domains, companyTenure "past", and experiences.any(is_current = true and start_date >= today() - interval 3 months) to see who just started somewhere new.
 - **Find it without Clay:** LinkedIn: check the profiles of your past users and buyers. Sales Navigator can save them as leads and alert you on job changes.
-- **Message angle:** Congrats on the move to [company]. Want to set [product] up there the way you had it at [old company]?
+- **Message angle:** Saw you moved to [company]. Want me to set [product] up there the way you had it at [old company]?
 
 ### P3. Promoted internally
 
@@ -262,7 +262,7 @@ Something changes for one person. Write to that person about what changed for th
 - **Usually a:** touchpoint
 - **Find it with Clay:** Contact search at your target companies: experiences.any(is_current = true and job_title is_similar_to ("[new title]") and start_date >= today() - interval 3 months). Then check that the previous role was at the same company.
 - **Find it without Clay:** LinkedIn profiles: a new title at the same company.
-- **Message angle:** Congrats on taking over [scope]. What's the first thing you want to fix?
+- **Message angle:** Saw you took over [scope]. A bigger scope usually means [new problem]. Want [something useful for it] before it lands on your desk?
 
 ### P4. Posted about the problem you solve
 
@@ -272,7 +272,7 @@ Something changes for one person. Write to that person about what changed for th
 - **Usually a:** pitch
 - **Find it with Clay:** The Find Thought Leadership contact data point, or a Custom contact data point: 'Has this person posted about [topic] in the last 30 days? Quote and link the post.'
 - **Find it without Clay:** LinkedIn search for posts with the topic, filtered to the last week. Ask your AI to search '[topic]' site:linkedin.com/posts.
-- **Message angle:** Your post on [topic] last week stuck with me, especially [their point]. How are you handling [specific part] today?
+- **Message angle:** Your post on [topic] last week, especially [their point], matches what we see at [type of company]. Want the [checklist or approach] we use for exactly that?
 
 ### P5. Engaged with posts about the problem or a competitor
 
@@ -282,7 +282,7 @@ Something changes for one person. Write to that person about what changed for th
 - **Usually a:** touchpoint
 - **Find it with Clay:** Collect the people who liked or commented on a relevant post, then use Clay to find their company and check fit.
 - **Find it without Clay:** Open the post and read the reactions and comments. Several tools export the people who engaged with a post.
-- **Message angle:** Saw you weighed in on [author]'s post about [topic]. Where do you land on [question from the post]?
+- **Message angle:** Saw you weighed in on [author]'s post about [topic]. Want the [data or example] we have on [the question from the post]?
 
 ### P6. Spoke at an event, on a podcast or in a webinar
 
@@ -292,7 +292,7 @@ Something changes for one person. Write to that person about what changed for th
 - **Usually a:** touchpoint
 - **Find it with Clay:** The Find Thought Leadership contact data point, or a Custom contact data point: 'Has this person spoken at an event or on a podcast in the last 60 days? Link it.'
 - **Find it without Clay:** Event agendas, podcast directories, YouTube. Ask your AI to search '[name] podcast' or '[name] [event]'.
-- **Message angle:** Heard your point on [podcast] about [topic]. Does that also hold for [related question]?
+- **Message angle:** Heard your point on [podcast] about [topic]. We see the same with [related observation]. Want the [data or example] behind it?
 
 ### P7. Visited your website
 
@@ -302,7 +302,7 @@ Something changes for one person. Write to that person about what changed for th
 - **Usually a:** touchpoint
 - **Find it with Clay:** Send website visitor data into a Clay table (a webhook) and research the company there. The connector doesn't read visitor data.
 - **Find it without Clay:** Website visitor identification tools (for example RB2B, Dealfront, Snitcher) or your analytics. Be careful with privacy rules in the EU.
-- **Message angle:** Never say you saw them on your site. Lead with the topic of the page they read.
+- **Message angle:** Never say you saw them on your site. Lead with the topic of the page they read, and offer the most useful thing you have on it.
 
 ### P8. Engaged with your own content
 
@@ -312,7 +312,7 @@ Something changes for one person. Write to that person about what changed for th
 - **Usually a:** touchpoint
 - **Find it with Clay:** Export the people who engaged with your posts, then use Clay to check fit and find their company.
 - **Find it without Clay:** Your LinkedIn post analytics and company page followers.
-- **Message angle:** Thanks for [reacting to / commenting on] the post on [topic]. Curious how [topic] looks at [company]?
+- **Message angle:** Thanks for [reacting to / commenting on] the post on [topic]. Want the [longer version or template] behind it, set up for [company]?
 
 ### P9. Asked for help in a community or forum
 
@@ -322,4 +322,4 @@ Something changes for one person. Write to that person about what changed for th
 - **Usually a:** pitch
 - **Find it with Clay:** Not a Clay search. Find the question first, then use Clay to find the person and their company.
 - **Find it without Clay:** Reddit, Slack and Discord communities, LinkedIn groups, Stack Overflow. Search the problem in their words.
-- **Message angle:** Answer the question in the community first. Then: 'Saw your question about [problem]. Did you solve it?'
+- **Message angle:** Answer the question in the community first. Then: 'Saw your question about [problem]. Want me to [set up / send] [the fix] for your setup?'

@@ -31,17 +31,23 @@ From Mateusz's part of the session. Best for LinkedIn and short first emails.
 
 - **Line 1:** the signal, specific enough that they recognise it.
 - **Line 2:** what it likely means for them, and how you help.
-- **Question:** one direct question they can answer with yes, no or a name.
+- **Question:** one direct question that offers them something useful: a sample, a practice run, a check of their situation. They should be able to say yes and get something. Not "who owns this?", not "is that on your team?", not "worth a quick chat?".
+
+On LinkedIn, open with "Hi {first name},". The two lines and the question come after it.
 
 How you write line 2 depends on whether the signal is a pitch or a touchpoint ([what's the difference](../signals/README.md#pitch-or-touchpoint)).
 
 **Pitch** (the signal is itself a reason to buy):
 
-> Hi {first name}, DataGuard has an SDR and a BDR role open in Munich. Two new reps usually means two people booking very little for the first months. Is the ramp plan for them already set?
+> Hi {first name},
+>
+> DataGuard has an SDR and a BDR role open in Munich. Two new reps usually learn how a data protection officer buys on live calls, and we train them on practice calls first. Want me to build them one with a DPO at a mid-sized company?
 
 **Touchpoint** (the signal is a reason to talk, not proof of need):
 
-> Hi {first name}, saw the Series A you announced in October. After a round, the plan often includes the first sales hires. Is outbound on it for next year, or still run by the founders?
+> Hi {first name},
+>
+> Saw the Series A you announced in October. After a round, the plan often includes the first sales hires. Want the 4-week plan we use to ramp a company's first two SDRs?
 
 ### 2. Observation, inference, question
 
@@ -49,9 +55,9 @@ For signals where the meaning isn't obvious: tech changes, expansions, content t
 
 1. **Observation:** a fact with a date or a place. "Your Paris office opened in October."
 2. **Inference:** what it usually leads to, said carefully. "New offices usually start with zero local pipeline."
-3. **Question:** about that consequence, not about your product. "Who's building the first customer list there?"
+3. **Question:** offer help with that consequence, not a demo of your product. "Want the first 50 accounts we'd call there?"
 
-The inference is where you show you understand their world. If it's wrong, the question lets them correct you, and that's still a reply.
+The inference is where you show you understand their world. If it's wrong, they'll tell you, and that's still a reply.
 
 ### 3. Saw, we help, worth sending over
 
@@ -76,7 +82,9 @@ Under 80 words. The asset must be something they'd want even if they never buy: 
 3. **Say inferences carefully.** You know they posted a job. You don't know they're struggling.
 4. **No invented facts, numbers or customer results.** If you don't have proof, leave it out.
 5. **Don't open with congratulations.** Every vendor does it the day after a funding round.
-6. **Short.** Under 50 words on LinkedIn, under 80 in email.
+6. **Short.** Under 60 words on LinkedIn after the greeting, under 80 in email.
+7. **Open with "Hi {first name},".** A message without a greeting reads as automated.
+8. **End with something they can say yes to.** Questions that ask them to route you ("who owns this?") or explain themselves for your benefit ("what broke first?") are the 2020 version.
 
 ## The swap test
 

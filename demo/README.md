@@ -1,4 +1,4 @@
-# The 10-minute demo
+# The demo
 
 You run one signal workflow from start to finish for a made-up company. Your AI does the work. Your job is to check it.
 
@@ -24,7 +24,7 @@ In Mateusz's terms this is "signal-based at scale": a large market where only th
    - **Claude Code:** run `/plugin marketplace add clay-run/agent-plugins`, then `/plugin install clay@clay-plugins`, then `/clay:setup`.
 3. Check it works: ask "Which Clay workspace am I connected to?"
 4. Paste [prompt-with-clay.md](prompt-with-clay.md).
-5. Claude asks before each Clay tool it uses. Click **Always allow** for Clay, or you'll click **Allow once** 5 or 6 times. If it says "running a command" for over a minute and nothing new appears, scroll down or click that line: it's usually waiting for your click.
+5. Claude asks before each Clay tool it uses. Click **Always allow** for Clay. With **Allow once** you'll click about 30 times: while the research runs, the AI checks the results every few seconds, and each check asks again. If it says "running a command" for over a minute and nothing new appears, scroll down or click that line: it's usually waiting for your click.
 
 You don't build any Clay tables. The connector searches Clay's company, people and job data and runs research for you, and the results come back in the chat.
 

@@ -67,6 +67,24 @@ We then ran version A of the no-Clay prompt in a fresh chat with the practice fi
 
 The same test ran the own-product exercise for a made-up compliance tool. 3 of 10 companies held up, and one job post named the competing tool the company already uses. The AI pitched them anyway. The prompts now ask it to look for that.
 
+## Run 6, 19 November: new message rules in claude.ai
+
+The first messages from runs 3 to 5 all ended with a question like "Who owns that hire's onboarding?" and reused one second line for every company, because the prompt asked for a question "they can answer with yes, no or a name" and gave no offer. The prompts now open with "Hi {first name},", ask for a second line built from what the company sells and to whom, and end with an offer the reader can say yes to.
+
+- **Result:** 10 companies found, 6 kept, a person found at 5. The run took about 5 minutes.
+- **Permission clicks:** the AI read the research results about 27 times while it ran, and claude.ai asked for permission each time. Click **Always allow** for Clay.
+- **Messages:** every one named who the new rep will be calling and offered a practice call with that buyer. Two of them:
+
+> Hi {first name},
+>
+> You started as DataGuard's Head of Sales in August and are now hiring an SDR and a BDR in Munich. Two reps learning compliance buyers at once is a heavy ramp; Rampwise trains both on AI role-plays built from your ICP, with weekly coaching. Want a free practice call with an IT security lead facing an ISO 27001 audit?
+
+> Hi {first name},
+>
+> Saw Haiilo is hiring a Business Development Representative in Hamburg. Your new Hamburg rep will likely be selling the intranet to internal comms and HR leaders, and Rampwise's AI role-plays let them rehearse those conversations before their first live call. Want a free practice call with a Head of Internal Communications for the new hire's first week?
+
+- **Still to check by hand:** three of the five people were in another region than the role (UK, Manchester, New York), and the AI flagged each one.
+
 ## People
 
 For the 10 companies in run 1, the people search found a sales development leader at 8. The strongest accounts had a second signal: the leader had started in the role recently. SoSafe's Senior SDR Manager started in October 2026, and Peec AI's Head of Sales EMEA in September 2026.
@@ -77,13 +95,19 @@ We left out names on purpose. Your AI will show them to you.
 
 ## Example first messages
 
-These follow Mateusz's rule of two lines and one direct question. Rampwise and its result are made up.
+These follow Mateusz's rule of two lines and one direct question, after a greeting. The question offers something useful instead of asking who owns the hire. Rampwise and its offer are made up.
 
-> Hi {first name}, you took over SDR at SoSafe in October and there are three SDR roles open for DACH right now. We run the first 30 days of ramp for new SDRs, so their manager isn't the one onboarding them. Who's ramping the new hires?
+> Hi {first name},
+>
+> You took over SDR at SoSafe in October and there are three SDR roles open for DACH. Three new reps will be pitching security awareness training to IT and HR leaders, and we train them on practice calls before their first real one. Want me to build one with a CISO at a German Mittelstand company?
 
-> Hi {first name}, DataGuard has an SDR and a BDR role open in Munich. Two new reps usually means two people booking very little for the first months. Is the ramp plan for them already set?
+> Hi {first name},
+>
+> DataGuard has an SDR and a BDR role open in Munich. Two new reps usually learn how a data protection officer buys on live calls, and we train them on practice calls first. Want me to build them one with a DPO at a mid-sized company?
 
-> Hi {first name}, you joined Peec AI in September and there's an SDR role open in Berlin. The first SDR under a new sales lead usually starts without a written ramp plan. Do you have one yet?
+> Hi {first name},
+>
+> You joined Peec AI in September and there's an SDR role open in Berlin. The first SDR under a new sales lead usually learns the pitch on live calls, with you as the trainer. Want me to build them a practice call with a marketing lead who's never heard of AI search visibility?
 
 ## Cost
 

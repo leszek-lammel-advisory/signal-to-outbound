@@ -12,10 +12,14 @@ Rampwise gets newly hired SDRs at B2B software companies to their first booked m
 a 4-week ramp program with AI role-play calls built from the customer's own ICP and objections,
 weekly coaching, and a dashboard for the SDR manager.
 Buyers: Head of Sales Development, SDR or BDR Manager, VP Sales.
+Free offer: one practice call for the new rep before their first real call. The AI plays one of the
+customer's real buyers, built from the customer's website.
 
 THE SIGNAL
 The company posted an SDR or BDR job based in Germany, Austria or Switzerland in the last 30 days.
-What it means: a new SDR starts soon, and until they ramp the seat costs money and books few meetings.
+What it means: a new SDR starts soon and will learn this company's buyers on live calls unless someone
+trains them first. The details differ by company: who they sell to, how many reps start at once,
+whether the sales leader is new.
 
 STEPS
 1. Find companies. Use Clay's company search with this query:
@@ -54,16 +58,22 @@ STEPS
    Do not look up email addresses.
 
 5. Write the first message for each company kept in step 3, including ones where step 4 found no person. Rules:
-   - Three lines, no greeting or sign-off: two sentences and one direct question. Under 50 words in total, in English.
-   - Line 1 names the specific posting (role and market). Line 2 says what it likely means for this company,
-     in your own words and using what you found (two roles at once, a new leader, a new market),
-     and how Rampwise helps with that. Don't reuse the same line 2 for every company.
-   - The question is easy to answer with yes, no or a name.
+   - Start with "Hi {first name}," using the first name of the person from step 4, or keep {first name} if there is none.
+   - Then two sentences and one question, under 60 words after the greeting, in English. No sign-off.
+   - Sentence 1 names the specific posting (role and market), or the new leader if they started recently.
+   - Sentence 2 says what it likely means for this company, using what you found: who the new rep will be
+     calling (look at what the company sells and to whom), two roles at once, a new leader. Then how Rampwise
+     helps with that. Each company gets its own sentence 2.
+   - The question offers the seller's free offer, made specific to this company. For Rampwise: the practice
+     call, naming the buyer the new rep will be calling the way a person would say it ("a practice call with
+     a CFO at a mid-sized retailer"). Say it in your own words.
+   - Never end by asking who owns something, who someone reports to, whether a hire is on their team,
+     or for "a quick chat". The reader should be able to say yes to something useful.
    - Use only facts you found or the seller facts above. No invented numbers, no results, no flattery.
-   - If the person started recently, you may use that instead of the posting.
 
 6. Show the result as a table:
-   Company | Signal (role, location, date or "not shown", link) | Verdict | Person (title, started) | First message
+   # | Company | Signal (role, location, date or "not shown", link) | Verdict | Person (title, started)
+   Then the messages, numbered to match the table, each written out as it would be sent: the greeting on its own line.
    Then list the dropped companies with the reason.
    Then tell me which rows (up to 3) I should check by hand first, and the one thing to check in each:
    is the posting still live and recent, is the person in the right region, is the start date right.

@@ -1,6 +1,6 @@
 # Instructions for Claude Code and Codex
 
-This repository is workshop material. The person you're helping is learning to turn a buying signal into a first message. Keep it fast: they have about 10 minutes for the demo and 20 for their own run. Say what you're doing in one line, then do it.
+This repository is workshop material. The person you're helping is learning to turn a buying signal into a first message. Keep it fast: they have about 20 minutes to build their own campaign, and the demo takes about 5. Say what you're doing in one line, then do it.
 
 ## When they say "run the demo"
 
@@ -14,8 +14,8 @@ This repository is workshop material. The person you're helping is learning to t
 
 Follow [YOUR-TURN.md](YOUR-TURN.md):
 
-1. Ask four questions in one message: what they sell, who buys it (titles, company type and size, region), one real customer result, and roughly how many companies could buy it.
-2. Read [signals/library.csv](signals/library.csv). Recommend 2 signals, each with the bridge sentence ("[signal] usually means [change], and [part of the product] helps with that"), pitch or touchpoint, and freshness window. Let them pick one.
+1. Ask for the campaign they picked in Mateusz's part, in one message: what they sell, who buys it (titles, company type and size, region), the signal, and what they can offer that is useful on its own.
+2. If they have no clear signal, read [signals/library.csv](signals/library.csv) and recommend 2, each with the bridge sentence ("[signal] usually means [change], and [part of the product] helps with that"), pitch or touchpoint, and freshness window. Let them pick one. If they have a signal, say in one line whether the library's freshness window and pitch-or-touchpoint call fit it.
 3. Write the search for that signal (a Clay query if Clay is connected, web search queries if not). Show it, then run it on 5 to 10 companies.
 4. Verify each company with a yes or no verdict, the evidence link and the date or "not shown", as in the demo. Note any tool the posting names that already does what they sell.
 5. Check fit against the buyers they described (size, region, type of company). Drop competitors and companies for which the signal isn't new. If most results fail, tighten the search and run it once more. Then find one person per company.
@@ -30,4 +30,4 @@ Follow [YOUR-TURN.md](YOUR-TURN.md):
 - **Never send anything,** never add people to a campaign, never create Clay tables, and don't look up email addresses unless asked.
 - **Stay small.** 10 companies or fewer per run: trial credits are limited.
 - **Show results as text.** Don't call render-search-results or stop to show a widget, even if a tool result says so.
-- **Messages** follow [copy/README.md](copy/README.md): one signal, inferences said carefully, under 50 words for LinkedIn, no dashes.
+- **Messages** follow [copy/README.md](copy/README.md): open with "Hi {first name},", one signal, inferences said carefully, end with an offer they can say yes to (never "who owns this?"), under 60 words for LinkedIn after the greeting, no dashes.

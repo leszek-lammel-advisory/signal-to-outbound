@@ -7,7 +7,7 @@ What's in here:
 - **A buying signal library.** 30 signals. For each one: what it usually means, how long it stays fresh, how to find it with Clay and without, and how to turn it into a message.
 - **10 agentic workflows.** The same pattern applied to different signals, each shown with Clay and without.
 - **3 copywriting frameworks** and one prompt that teaches your AI to connect a signal to what your product does.
-- **A demo you can run in 10 minutes** in Claude, ChatGPT, Claude Code or Codex.
+- **A demo that runs in about 5 minutes** in Claude, ChatGPT, Claude Code or Codex.
 - **A tool map** for when you want to run this every day instead of once.
 
 ## The flow
@@ -47,9 +47,9 @@ Then do [your turn](YOUR-TURN.md): the same flow for your own product.
 | [signals/](signals/) | The library: [library.md](signals/library.md) to read, [library.csv](signals/library.csv) to give to an AI |
 | [workflows/](workflows/) | 10 agentic workflows, plus how an always-on version runs |
 | [copy/](copy/) | 3 frameworks and the [signal-to-message prompt](copy/signal-to-message-prompt.md) |
-| [demo/](demo/) | The 10-minute demo, the prompts and our last run |
+| [demo/](demo/) | The demo, the prompts and our last run |
 | [TOOLS.md](TOOLS.md) | Which tool does which job, with and without Clay |
-| [YOUR-TURN.md](YOUR-TURN.md) | The 20-minute exercise |
+| [YOUR-TURN.md](YOUR-TURN.md) | Build your own campaign in 20 minutes |
 | [AGENTS.md](AGENTS.md) | Instructions for Claude Code and Codex when you open this repo |
 
 ## Rules that hold for every workflow
