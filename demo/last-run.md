@@ -85,6 +85,13 @@ The first messages from runs 3 to 5 all ended with a question like "Who owns tha
 
 - **Still to check by hand:** three of the five people were in another region than the role (UK, Manchester, New York), and the AI flagged each one.
 
+## Run 7, 19 November: copy rules rebuilt on our copy library
+
+The copy notes, the prompts and the 30 library angles now follow the outbound copy library we use for client campaigns: name what changed, offer something useful for the work it creates, and end with a next step that names what they get. Two fresh agents tested it without seeing how it was written.
+
+- **The demo without tools:** 4 companies kept from the practice file, each message offered a practice call with that company's own buyer (an embedded software lead, an IT lead preparing for ISO 27001, a head of apprentice training, a head of procurement) and ended "Want me to build it?". None claimed onboarding was a problem.
+- **The prompt on three made-up briefs:** a French launch named in a job post got a sample translation of one of their product pages, tied to the launch date in the posting. A funding round that didn't say what the money was for was used only to choose whom to write to, and became a plain offer with no invented need. A posting that named the call recording tool the company already uses was skipped.
+
 ## People
 
 For the 10 companies in run 1, the people search found a sales development leader at 8. The strongest accounts had a second signal: the leader had started in the role recently. SoSafe's Senior SDR Manager started in October 2026, and Peec AI's Head of Sales EMEA in September 2026.
@@ -95,19 +102,39 @@ We left out names on purpose. Your AI will show them to you.
 
 ## Example first messages
 
-These follow Mateusz's rule of two lines and one direct question, after a greeting. The question offers something useful instead of asking who owns the hire. Rampwise and its offer are made up.
+These follow the signal pattern in [the copy notes](../copy/README.md#3-the-signal-pattern-change-to-practical-help): the change, what Rampwise can give, the next step. After the greeting, that's Mateusz's two lines and one question. Rampwise and its offer are made up.
+
+**SoSafe**, three SDR roles for DACH:
 
 > Hi {first name},
 >
-> You took over SDR at SoSafe in October and there are three SDR roles open for DACH. Three new reps will be pitching security awareness training to IT and HR leaders, and we train them on practice calls before their first real one. Want me to build one with a CISO at a German Mittelstand company?
+> You have three SDR roles open for DACH.
+>
+> Before their first real calls, I can set up a practice call where the new reps pitch an AI playing a CISO at a German Mittelstand company, built from your website.
+>
+> Want me to build it?
+
+**DataGuard**, an SDR and a BDR in Munich:
 
 > Hi {first name},
 >
-> DataGuard has an SDR and a BDR role open in Munich. Two new reps usually learn how a data protection officer buys on live calls, and we train them on practice calls first. Want me to build them one with a DPO at a mid-sized company?
+> You're hiring an SDR and a BDR in Munich.
+>
+> I can set up a practice call where each of them pitches an AI playing a data protection officer at a mid-sized company, built from your website, before their first real call.
+>
+> Want me to build them?
+
+**Tacto**, a BDR in Munich:
 
 > Hi {first name},
 >
-> You joined Peec AI in September and there's an SDR role open in Berlin. The first SDR under a new sales lead usually learns the pitch on live calls, with you as the trainer. Want me to build them a practice call with a marketing lead who's never heard of AI search visibility?
+> You're hiring a Business Development Representative in Munich.
+>
+> Before the new rep's first live call, I can set up a practice call where they pitch an AI playing a head of procurement at a mid-sized German manufacturer, built from your website.
+>
+> Want me to build it?
+
+What they leave out on purpose: congratulations, what a new hire "usually" means, and any claim that onboarding is a problem. The company knows what a new rep needs. The offer carries the message.
 
 ## Cost
 

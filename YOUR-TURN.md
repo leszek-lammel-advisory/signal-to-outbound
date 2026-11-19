@@ -13,7 +13,7 @@ The signal: [what happens at a company that makes now a good moment to write]
 Free offer: [something useful on its own that you can send or do: a sample, a check, a comparison]
 ```
 
-The free offer is what your message ends with. It's the difference between "who owns onboarding?" and "want me to build your new rep a practice call with one of your buyers?".
+The free offer is what your message is built around. It's the difference between "who owns onboarding?" and "want me to build your new rep a practice call with one of your buyers?". Say "I can put together" unless it already exists.
 
 **No clear signal in your idea?** Attach [signals/library.csv](signals/library.csv), paste your first two lines, and add:
 
@@ -21,7 +21,8 @@ The free offer is what your message ends with. It's the difference between "who 
 Read the attached buying-signal library.
 Pick the 2 signals most likely to mean a company needs my product NOW.
 For each one tell me:
-- why, in one sentence, using the "[signal] usually means [change], and [part of my product] helps with that" format;
+- what changes at the company and the work it puts in view, in one sentence;
+- what I could give them that helps with that work;
 - pitch or touchpoint for my product;
 - how fresh it has to be;
 - how you would find 10 companies with it this week (with Clay, and without).
@@ -50,7 +51,7 @@ Keep it to 10 companies or fewer. It's enough to learn from and it saves trial c
 
 1. Open three evidence links yourself. Mark every row where the AI was wrong. Look for the real posting date (page source, `datePosted`) and for any tool they already use for what you sell. In our test, a job post named the competing tool the company already uses, and the AI pitched them anyway.
 2. For the rows that hold up, run [the signal-to-message prompt](copy/signal-to-message-prompt.md), or ask your AI to rewrite its messages using it.
-3. Run [the swap test](copy/README.md#the-swap-test) on your best message.
+3. Run [the checks](copy/README.md#6-before-you-send-fix-the-earliest-wrong-decision) on your best message: delete the signal sentence, and if the rest reads the same, the signal is decoration.
 
 ## 18 to 20 minutes: pick one
 

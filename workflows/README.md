@@ -35,10 +35,10 @@ The signal we used in the demo. We run it as an always-on campaign for clients.
   2. Verify each posting: location, date, still open.
   3. Check fit.
   4. Find the leader of that team, not the recruiter.
-  5. Message about what the new hire means for them.
+  5. Message: the posting, and what you can prepare for the work it creates.
 - **With Clay:** company search with `jobs.exists(...)`, then a Custom data point to verify, then contact search. See [the demo prompt](../demo/prompt-with-clay.md).
 - **Without Clay:** start from job boards that show dates (in Germany, arbeitnow.com), then open each posting on the company's own careers page. For companies on Ashby, `https://api.ashbyhq.com/posting-api/job-board/<company>` gives every open job with its publish date.
-- **What makes it work:** writing to the hiring manager about the consequence of the hire (ramp time, tools, process), not about the job itself.
+- **What makes it work:** offering the hiring manager something for the work the hire creates (a practice call, a starting list, a setup), without claiming they have a problem.
 
 ## 2. New decision maker
 
@@ -53,7 +53,7 @@ Our other always-on campaign.
   4. Write to the new person.
 - **With Clay:** company search with `people.exists(is_current = true and job_title is_similar_to ("...") and start_date >= today() - interval 3 months)`, then contact search with the same filter at those companies.
 - **Without Clay:** LinkedIn Sales Navigator's "changed jobs in the past 90 days" filter, or LinkedIn "started a new position" posts.
-- **What makes it work:** timing. The first 60 days are when new leaders review what they inherited. After 6 months the window is mostly closed.
+- **What makes it work:** the start date picks whom to write to; the message is about their customers or a task you can see. Our best-performing new-hire email offered a demo campaign aimed at the new leader's customers. After 6 months the window is mostly closed.
 
 ## 3. Fresh funding plus a second signal
 

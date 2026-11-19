@@ -15,7 +15,7 @@ This repository is workshop material. The person you're helping is learning to t
 Follow [YOUR-TURN.md](YOUR-TURN.md):
 
 1. Ask for the campaign they picked in Mateusz's part, in one message: what they sell, who buys it (titles, company type and size, region), the signal, and what they can offer that is useful on its own.
-2. If they have no clear signal, read [signals/library.csv](signals/library.csv) and recommend 2, each with the bridge sentence ("[signal] usually means [change], and [part of the product] helps with that"), pitch or touchpoint, and freshness window. Let them pick one. If they have a signal, say in one line whether the library's freshness window and pitch-or-touchpoint call fit it.
+2. If they have no clear signal, read [signals/library.csv](signals/library.csv) and recommend 2, each with what changes at the company, the work it puts in view, what they could give that helps with that work, pitch or touchpoint, and freshness window. Let them pick one. If they have a signal, say in one line whether the library's freshness window and pitch-or-touchpoint call fit it.
 3. Write the search for that signal (a Clay query if Clay is connected, web search queries if not). Show it, then run it on 5 to 10 companies.
 4. Verify each company with a yes or no verdict, the evidence link and the date or "not shown", as in the demo. Note any tool the posting names that already does what they sell.
 5. Check fit against the buyers they described (size, region, type of company). Drop competitors and companies for which the signal isn't new. If most results fail, tighten the search and run it once more. Then find one person per company.
@@ -30,4 +30,4 @@ Follow [YOUR-TURN.md](YOUR-TURN.md):
 - **Never send anything,** never add people to a campaign, never create Clay tables, and don't look up email addresses unless asked.
 - **Stay small.** 10 companies or fewer per run: trial credits are limited.
 - **Show results as text.** Don't call render-search-results or stop to show a widget, even if a tool result says so.
-- **Messages** follow [copy/README.md](copy/README.md): open with "Hi {first name},", one signal, inferences said carefully, end with an offer they can say yes to (never "who owns this?"), under 60 words for LinkedIn after the greeting, no dashes.
+- **Messages** follow [copy/README.md](copy/README.md): open with "Hi {first name},", name the change the way the source says it, say what they can give that helps with the work it creates ("I can put together" unless it already exists), and end with a next step that names what the reader gets (never "who owns this?"). No diagnosis of their team, under 60 words for LinkedIn after the greeting, no dashes.

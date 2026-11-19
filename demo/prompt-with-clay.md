@@ -17,9 +17,9 @@ customer's real buyers, built from the customer's website.
 
 THE SIGNAL
 The company posted an SDR or BDR job based in Germany, Austria or Switzerland in the last 30 days.
-What it means: a new SDR starts soon and will learn this company's buyers on live calls unless someone
-trains them first. The details differ by company: who they sell to, how many reps start at once,
-whether the sales leader is new.
+What it means: a new SDR starts soon and has to learn this company's buyers. Rampwise can help with
+exactly that work: a practice call with one of those buyers before the first real call. The posting
+shows the hire, not a problem. Who the buyers are differs by company.
 
 STEPS
 1. Find companies. Use Clay's company search with this query:
@@ -60,15 +60,20 @@ STEPS
 5. Write the first message for each company kept in step 3, including ones where step 4 found no person. Rules:
    - Start with "Hi {first name}," using the first name of the person from step 4, or keep {first name} if there is none.
    - Then two sentences and one question, under 60 words after the greeting, in English. No sign-off.
-   - Sentence 1 names the specific posting (role and market), or the new leader if they started recently.
-   - Sentence 2 says what it likely means for this company, using what you found: who the new rep will be
-     calling (look at what the company sells and to whom), two roles at once, a new leader. Then how Rampwise
-     helps with that. Each company gets its own sentence 2.
-   - The question offers the seller's free offer, made specific to this company. For Rampwise: the practice
-     call, naming the buyer the new rep will be calling the way a person would say it ("a practice call with
-     a CFO at a mid-sized retailer"). Say it in your own words.
-   - Never end by asking who owns something, who someone reports to, whether a hire is on their team,
-     or for "a quick chat". The reader should be able to say yes to something useful.
+     The pattern: the change, what Rampwise can give them, the next step.
+   - Sentence 1 names the posting: the role, the market, and what the posting says the rep will do or sell,
+     in its own words where you can. Write to them as "you" ("you're hiring", "your posting"), not by their
+     company name. No congratulations. A new sales leader only decides whom you write to:
+     leave their start date out.
+   - Sentence 2 says what Rampwise can prepare for this company: the practice call, naming the buyer the new
+     rep will be calling the way a person would say it ("a CFO at a mid-sized retailer"), worked out from what
+     the company sells and to whom. Rampwise would build it, so "I can set up", not "I have".
+     Each company gets its own sentence 2 because its buyer is different.
+   - Don't explain what a new hire means for them or claim a problem you can't see ("new reps usually learn
+     on live calls", "onboarding takes your time"). They know.
+   - The question names what they get ("Want me to build it?", "Want me to set one up for them?").
+     Never ask who owns something, who someone reports to, whether a hire is on their team, whether they
+     are exploring something, or for "a quick chat".
    - Use only facts you found or the seller facts above. No invented numbers, no results, no flattery.
 
 6. Show the result as a table:

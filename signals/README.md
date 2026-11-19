@@ -64,10 +64,10 @@ flowchart LR
 
 This split comes from Mateusz's part of the session.
 
-- **Pitch:** the signal is itself a reason to buy what you sell. You can name the problem and your offer in the first message. An SDR job post is a pitch for an SDR ramp program.
-- **Touchpoint:** the signal is a reason to talk, not proof of need. Open a conversation, give something useful, and pitch later. A funding round is a touchpoint for most sellers.
+- **Pitch:** the change itself makes your offer relevant. Name the change and what you can give them. An SDR job post is a pitch for an SDR ramp program.
+- **Touchpoint:** the change doesn't show a need. Use it to choose whom to write to, then offer something useful about the work you can see, without claiming they have a problem. A funding round is a touchpoint for most sellers.
 
-The same signal can be a pitch for one product and a touchpoint for another. The library says which it usually is. Your product decides.
+The same signal can be a pitch for one product and a touchpoint for another. The library says which it usually is. Your product decides. Either way, the message follows [the copy notes](../copy/README.md).
 
 ## Other public libraries
 
@@ -87,5 +87,5 @@ Many people have shared bigger lists. We opened each of these on 19 November 202
 
 The Common Room sheet link shared in many LinkedIn posts no longer works. The one above does: make a copy to use it.
 
-How ours differs: it is shorter on purpose. 30 signals, each with the bridge to a message and a way to find it with Clay and without, so you can run one today.
+How ours differs: it is shorter on purpose. 30 signals, each with an angle for the first message and a way to find it with Clay and without, so you can run one today.
 

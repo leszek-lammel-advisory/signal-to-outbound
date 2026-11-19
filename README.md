@@ -4,9 +4,9 @@ From a buying signal to a message someone wants to answer. Built for the "Outrea
 
 What's in here:
 
-- **A buying signal library.** 30 signals. For each one: what it usually means, how long it stays fresh, how to find it with Clay and without, and how to turn it into a message.
+- **A buying signal library.** 30 signals. For each one: what it usually means, how long it stays fresh, how to find it with Clay and without, and an angle for the first message.
 - **10 agentic workflows.** The same pattern applied to different signals, each shown with Clay and without.
-- **3 copywriting frameworks** and one prompt that teaches your AI to connect a signal to what your product does.
+- **Copy notes from our outbound library**: the signal pattern, our best-performing first email, seven selling situations, and one prompt that teaches your AI to write from a signal.
 - **A demo that runs in about 5 minutes** in Claude, ChatGPT, Claude Code or Codex.
 - **A tool map** for when you want to run this every day instead of once.
 
@@ -46,7 +46,7 @@ Then do [your turn](YOUR-TURN.md): the same flow for your own product.
 |---|---|
 | [signals/](signals/) | The library: [library.md](signals/library.md) to read, [library.csv](signals/library.csv) to give to an AI |
 | [workflows/](workflows/) | 10 agentic workflows, plus how an always-on version runs |
-| [copy/](copy/) | 3 frameworks and the [signal-to-message prompt](copy/signal-to-message-prompt.md) |
+| [copy/](copy/) | The copy notes and the [signal-to-message prompt](copy/signal-to-message-prompt.md) |
 | [demo/](demo/) | The demo, the prompts and our last run |
 | [TOOLS.md](TOOLS.md) | Which tool does which job, with and without Clay |
 | [YOUR-TURN.md](YOUR-TURN.md) | Build your own campaign in 20 minutes |
@@ -56,7 +56,7 @@ Then do [your turn](YOUR-TURN.md): the same flow for your own product.
 
 1. **Name the event and its date.** "Series A" is an attribute. "Series A announced 3 October" is a signal.
 2. **Old signals are worse than none.** A one-year-old funding round in an opener tells the reader you use stale data. Check the freshness window in the library.
-3. **The signal must connect to what you sell.** If you can't say why this event makes your product more relevant now, skip the account.
+3. **The signal must connect to something useful you can give.** If you can't name the work it creates and how you'd help with it, skip the account.
 4. **Verify before you write.** Open the link. Check the location, the date and that it's still live.
 5. **Nothing gets sent automatically while you're learning.** Read every message before it goes out.
 
