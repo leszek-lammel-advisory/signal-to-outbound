@@ -4,6 +4,8 @@ You answered the four picks in the same chat as your setup ([START.md](START.md)
 
 **Claude Code or Codex:** type `build`.
 
+**Your AI says it can't open the signal library?** Send this link as its own message, then the build prompt again: `https://leszek-lammel-advisory.github.io/signal-to-outbound/signals/library.md`. claude.ai won't open links inside a long pasted prompt, only links you send as a normal message.
+
 | Minutes | Step | You end with |
 |---|---|---|
 | 0 to 5 | **Variants.** Your AI proposes 2 or 3 workflows, each built on a signal from [our library](signals/library.md) that it can actually find with your tools. Pick one, or adjust it. | One workflow you both agree on |
@@ -19,7 +21,8 @@ Now build my campaign from my four answers above. Work in the steps below and st
 Never send anything, never create Clay tables, and don't look up email addresses unless I ask.
 
 STEP 1: VARIANTS (then stop)
-Read our signal library: https://raw.githubusercontent.com/leszek-lammel-advisory/signal-to-outbound/main/signals/library.md
+Use our signal library. You opened it during setup; if it isn't in this chat yet, open
+https://leszek-lammel-advisory.github.io/signal-to-outbound/signals/library.md
 If you can't open it, choose from these:
 - A1 Job post for the function you serve. Fresh 0 to 30 days. Clay: company search with jobs.exists(job_title,
   job_posted_date, job_still_open). Web: job boards that show dates (arbeitnow.com in Germany), careers pages.

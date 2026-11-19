@@ -33,6 +33,9 @@ companies, research or write anything beyond the four steps below.
    - A permission prompt: click Always allow, or every step will stop and wait for me.
    - No web search: turn it on for this chat, or use ChatGPT with search.
    If the Clay test fails twice, tell me we'll continue with web search only.
+   Then open our signal library, which we use when we build:
+   https://leszek-lammel-advisory.github.io/signal-to-outbound/signals/library.md
+   Say in one line how many signals it lists, or that it didn't open.
 
 3. Today. In three short lines, tell me what I'll have at the end:
    a workflow from one signal to a ready-to-send list, run by you on 5 to 10 real companies;
