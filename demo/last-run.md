@@ -92,6 +92,21 @@ The copy notes, the prompts and the 30 library angles now follow the outbound co
 - **The demo without tools:** 4 companies kept from the practice file, each message offered a practice call with that company's own buyer (an embedded software lead, an IT lead preparing for ISO 27001, a head of apprentice training, a head of procurement) and ended "Want me to build it?". None claimed onboarding was a problem.
 - **The prompt on three made-up briefs:** a French launch named in a job post got a sample translation of one of their product pages, tied to the launch date in the posting. A funding round that didn't say what the money was for was used only to choose whom to write to, and became a plain offer with no invented need. A posting that named the call recording tool the company already uses was skipped.
 
+## Run 8, 19 November: the Clay demo in claude.ai with the rebuilt copy rules
+
+- **Result:** 10 companies found, 7 kept, a person found at 5. About 3 minutes. Only 4 permission prompts this time, because every check finished on the first read. It can still be about 30, so click **Always allow** for Clay.
+- **Messages:** all 7 opened "You're hiring...", named what the company sells, offered a practice call with a buyer specific to that company, and ended "Want me to build it?" or "Want me to set one up for them?". None claimed onboarding was a problem. Two of them:
+
+> Hi {first name},
+>
+> You're hiring a Business Development Representative in Munich to sell your security and compliance platform. I can set up a practice call where the new rep talks to an AI playing an IT lead at a mid-sized company working toward ISO 27001, built from your website. Want me to build it?
+
+> Hi {first name},
+>
+> You're hiring a Sales Development Representative on-site in Berlin to bring voice documentation to care facilities. I can set up a practice call where the new rep talks to an AI playing the director of a nursing home group, built from your website. Want me to set one up for them?
+
+- **What the copy can't fix:** no posting date was found for any of the 7. Three of them are postings we had already found to be old or re-posted in runs 2 to 5 (Capmo, Alasco, Peec AI). A well-written message about a stale signal is still a stale message: open the links and find the real date before you send.
+
 ## People
 
 For the 10 companies in run 1, the people search found a sales development leader at 8. The strongest accounts had a second signal: the leader had started in the role recently. SoSafe's Senior SDR Manager started in October 2026, and Peec AI's Head of Sales EMEA in September 2026.
