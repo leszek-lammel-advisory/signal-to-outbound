@@ -43,6 +43,18 @@ A fresh agent ran the whole Clay prompt as a participant would, limit 10. All st
 
 **Fix:** the query in [prompt-with-clay.md](prompt-with-clay.md) now also filters on the job's location. In a test search it removed 5 of the 6 out-of-market companies and brought in 5 new ones in DACH.
 
+## Run 4, 19 November: no Clay, web search only
+
+A second fresh agent ran [prompt-no-tools.md](prompt-no-tools.md) with web search only.
+
+- **The first version of the prompt found almost nothing.** Searches like `site:jobs.ashbyhq.com` were ignored by the search engine and returned aggregators, dead links and big US companies. Most early hits were stale, closed or too big.
+- **One job board made it work.** arbeitnow.com lists German job posts with dates and opens without a login. From there the agent found 7 companies that held up, most of them not in Clay's results at all: Superchat, Kertos, Peec AI, vivenu, Packmatic, Kubermatic, amber.
+- **It found the dates Clay couldn't.** Several companies Clay's search returned as "posted in the last 30 days" had posted their role much earlier. Checked on the companies' own Ashby job boards: SoSafe on 16 October, n8n's DACH role on 23 September, voize on 4 September.
+
+**Fix:** the prompt now starts from arbeitnow, uses Ashby's public job feed for dates, and stops instead of loosening the rules when too few companies pass.
+
+**Lesson:** "still open" is not "fresh". A role posted 10 weeks ago and still open is a weaker signal, and possibly one they can't fill. Find the real date before you write "you're hiring".
+
 ## People
 
 For the 10 companies in run 1, the people search found a sales development leader at 8. The strongest accounts had a second signal: the leader had started in the role recently. SoSafe's Senior SDR Manager started in October 2026, and Peec AI's Head of Sales EMEA in September 2026.

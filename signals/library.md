@@ -77,7 +77,7 @@ Something changes at one company. Find the company first, then the person who ow
 - **Good for sellers of:** Tools, training and services for that team
 - **Usually a:** pitch
 - **Find it with Clay:** Company search: jobs.exists(job_title is_similar_to ("[role]") and job_posted_date >= today() - interval 30 days and job_still_open = true). Then verify with a Custom data point that asks for location, date and link.
-- **Find it without Clay:** Careers pages and applicant tracking systems (Ashby, Greenhouse, Lever, Personio, Workable, Join), LinkedIn Jobs, StepStone. Example: site:jobs.ashbyhq.com "[role]" Berlin
+- **Find it without Clay:** Job boards that show dates (in Germany: arbeitnow.com), then the company's own careers page. For companies on Ashby, https://api.ashbyhq.com/posting-api/job-board/[company] lists every open job with its publish date. Search engines often ignore site: searches on job platforms.
 - **Message angle:** Saw you're hiring a [role] for [market]. [What that usually means]. Who's [owning that part]?
 
 ### A2. A job post that names a tool or a problem

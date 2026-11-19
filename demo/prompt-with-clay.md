@@ -12,7 +12,6 @@ Rampwise gets newly hired SDRs at B2B software companies to their first booked m
 a 4-week ramp program with AI role-play calls built from the customer's own ICP and objections,
 weekly coaching, and a dashboard for the SDR manager.
 Buyers: Head of Sales Development, SDR or BDR Manager, VP Sales.
-Example result (made up): a Berlin HR-tech company cut SDR ramp time from 4 months to 7 weeks.
 
 THE SIGNAL
 The company posted an SDR or BDR job for the DACH market in the last 30 days.
@@ -51,18 +50,18 @@ STEPS
    Do not look up email addresses.
 
 5. Write the first message for each company. Rules:
-   - Two short lines and one direct question. Under 50 words. Line 2 stays under 25 words.
+   - Three lines: two short sentences and one direct question. Under 50 words in total, in English.
    - Line 1 names the specific posting (role and market). Line 2 says what it likely means for them,
      and how Rampwise helps with that, in plain words.
    - The question is easy to answer with yes, no or a name.
-   - Use only facts you found or the seller facts above. No invented numbers, no flattery.
+   - Use only facts you found or the seller facts above. No invented numbers, no results, no flattery.
    - If the person started recently, you may use that instead of the posting.
 
 6. Show the result as a table:
    Company | Signal (role, location, date or "not shown", link) | Verdict | Person (title, started) | First message
    Then list the dropped companies with the reason.
    Then tell me which rows (up to 3) I should check by hand first, and the one thing to check in each:
-   is the posting still live, is the person in the right region, is the start date right.
+   is the posting still live and recent, is the person in the right region, is the start date right.
 ````
 
 ## What it takes
@@ -72,4 +71,6 @@ STEPS
 
 ## What to expect
 
-On our test runs, between a third and a half of the companies survived step 2. That's the point of the step, not a failure. Posting dates are rarely shown, so most signals will say "date not shown": that's why the last step asks you to check the posting is still live.
+On our test runs, between a third and a half of the companies survived step 2. That's the point of the step, not a failure.
+
+Posting dates are rarely shown, so most signals will say "date not shown". Don't trust the search's "posted in the last 30 days" either: several companies it returned had posted their role 5 to 10 weeks earlier. When you check a row by hand, find the real date. For companies on Ashby, `https://api.ashbyhq.com/posting-api/job-board/<company>` lists every open job with its publish date.

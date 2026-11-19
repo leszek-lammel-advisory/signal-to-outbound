@@ -29,7 +29,7 @@ You don't build any Clay tables. The connector searches Clay's company, people a
 
 ### Path B: Claude or ChatGPT without Clay
 
-Paste [prompt-no-tools.md](prompt-no-tools.md). Web search must be on. It finds fewer companies than Clay, because it reads job boards one by one, but the flow is identical.
+Paste [prompt-no-tools.md](prompt-no-tools.md). Web search must be on. It's slower and finds fewer companies than Clay, because it reads job boards page by page, but the flow is identical and it's better at finding real posting dates. If you have fewer than 3 companies after 5 minutes, switch to the practice file below.
 
 ### Path C: Claude Code or Codex
 
@@ -41,12 +41,10 @@ Open [practice-companies.csv](practice-companies.csv). It has 20 companies from 
 
 ## What you should see
 
-A table with one row per company:
-
-| Company | Signal and link | Verdict | Person to contact | First message |
-|---|---|---|---|---|
-
-Plus a short list of the companies that were dropped, and why.
+- A table with one row per company: the job found (role, location, date or "not shown", link) and the person or role to contact.
+- A first message for each company.
+- The companies that were dropped, and why.
+- Up to 3 rows to check by hand, with the one thing to check in each.
 
 ## Your job while it runs
 
@@ -54,7 +52,7 @@ Pick three rows and open the job links yourself.
 
 - Is the role really in DACH?
 - Is it still open?
-- Is it recent?
+- Is it recent? Find the real date: the search's "posted in the last 30 days" is often wrong.
 - Does the person you'd contact own SDR onboarding at that company?
 
 Mark every row where the AI was wrong. That's the most important thing you'll learn today. Our own run is in [last-run.md](last-run.md).

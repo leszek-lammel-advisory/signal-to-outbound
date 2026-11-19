@@ -37,7 +37,7 @@ The signal we used in the demo. We run it as an always-on campaign for clients.
   4. Find the leader of that team, not the recruiter.
   5. Message about what the new hire means for them.
 - **With Clay:** company search with `jobs.exists(...)`, then a Custom data point to verify, then contact search. See [the demo prompt](../demo/prompt-with-clay.md).
-- **Without Clay:** search careers pages and job boards (`site:jobs.ashbyhq.com`, Personio, Greenhouse, LinkedIn Jobs), then open each posting.
+- **Without Clay:** start from job boards that show dates (in Germany, arbeitnow.com), then open each posting on the company's own careers page. For companies on Ashby, `https://api.ashbyhq.com/posting-api/job-board/<company>` gives every open job with its publish date.
 - **What makes it work:** writing to the hiring manager about the consequence of the hire (ramp time, tools, process), not about the job itself.
 
 ## 2. New decision maker
