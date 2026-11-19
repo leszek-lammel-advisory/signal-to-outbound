@@ -6,8 +6,8 @@ This repository is workshop material. The person you're helping is learning to t
 
 1. Check which tools you have, and say in one line which path you're taking:
    - **Clay connector available** (tools such as search-companies, add-company-data-points, search-contacts): follow [demo/prompt-with-clay.md](demo/prompt-with-clay.md) step by step.
-   - **Web search but no Clay:** follow [demo/prompt-no-tools.md](demo/prompt-no-tools.md).
-   - **Neither:** read [demo/practice-companies.csv](demo/practice-companies.csv), take the rows with verdict `yes` or `check`, and do the remaining steps of [demo/prompt-no-tools.md](demo/prompt-no-tools.md) from the fit check onwards. Say clearly that these companies were found earlier, not now.
+   - **Web search but no Clay:** follow version B of [demo/prompt-no-tools.md](demo/prompt-no-tools.md) (live search). If fewer than 3 companies pass after about 25 searches, switch to version A, which re-checks [demo/practice-companies.csv](demo/practice-companies.csv).
+   - **Neither:** read [demo/practice-companies.csv](demo/practice-companies.csv), take the rows with verdict `yes` or `check`, and do steps 3 to 6 of version A. Say clearly that these companies and dates were found earlier and could not be re-checked now.
 2. End with the table, the dropped companies with reasons, and up to 3 rows they should check by hand, with the one thing to check in each.
 
 ## When they say "my turn"

@@ -30,7 +30,7 @@ Pick one signal.
 
 ## 5 to 15 minutes: run it
 
-Take the demo prompt you used ([with Clay](demo/prompt-with-clay.md) or [without](demo/prompt-no-tools.md)) and change two blocks:
+Take a demo prompt ([with Clay](demo/prompt-with-clay.md), or version B of [the one without](demo/prompt-no-tools.md#version-b-search-live)) and change two blocks:
 
 1. **THE SELLER:** your product, from the prompt above.
 2. **THE SIGNAL:** the signal you picked, and what it means.

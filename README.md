@@ -34,9 +34,9 @@ Step 2 is where most automated outbound goes wrong. In our demo run, a Clay sear
 | You have | Do this |
 |---|---|
 | Claude or ChatGPT, plus a Clay account | Connect Clay ([setup](demo/README.md#path-a-claude-or-chatgpt-with-clay)), then paste [the Clay demo prompt](demo/prompt-with-clay.md) |
-| Claude or ChatGPT, no Clay | Paste [the no-tools demo prompt](demo/prompt-no-tools.md). It uses web search only |
+| Claude or ChatGPT, no Clay | Attach [the practice file](demo/practice-companies.csv) and paste version A of [the no-tools prompt](demo/prompt-no-tools.md). It checks our list again with web search |
 | Claude Code or Codex | Clone this repo, open it, and type `run the demo` |
-| Nothing works | Open [demo/practice-companies.csv](demo/practice-companies.csv) and do the steps by hand with any chatbot |
+| Nothing works | Open [demo/practice-companies.csv](demo/practice-companies.csv) and check the links by hand |
 
 Then do [your turn](YOUR-TURN.md): the same flow for your own product.
 

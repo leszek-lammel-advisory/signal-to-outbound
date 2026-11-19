@@ -29,15 +29,15 @@ You don't build any Clay tables. The connector searches Clay's company, people a
 
 ### Path B: Claude or ChatGPT without Clay
 
-Paste [prompt-no-tools.md](prompt-no-tools.md). Web search must be on. It's slower and finds fewer companies than Clay, because it reads job boards page by page, but the flow is identical and it's better at finding real posting dates. If you have fewer than 3 companies after 5 minutes, switch to the practice file below.
+Attach [practice-companies.csv](practice-companies.csv) and paste **version A** of [prompt-no-tools.md](prompt-no-tools.md). Web search must be on. It starts from 20 companies we found earlier and checks them again live, so your time goes into checking and writing, not searching. Finished early? Try **version B**, which searches live. It's slow in a chat: in our test it took about 25 searches to find 5 good companies.
 
 ### Path C: Claude Code or Codex
 
-Clone this repo, open the folder and type `run the demo`. [AGENTS.md](../AGENTS.md) picks Path A if Clay is connected and Path B if not.
+Clone this repo, open the folder and type `run the demo`. [AGENTS.md](../AGENTS.md) picks Path A if Clay is connected and a live web search if not.
 
 ### Nothing works
 
-Open [practice-companies.csv](practice-companies.csv). It has 20 companies from our run with the job postings already found. Give it to any chatbot together with [prompt-no-tools.md](prompt-no-tools.md), starting from step 3.
+Open [practice-companies.csv](practice-companies.csv) and the links in it yourself. It has 20 companies from our runs with the job postings already found. Do the steps by hand: is the role open, where, since when; who would you write to; what would you say.
 
 ## What you should see
 
