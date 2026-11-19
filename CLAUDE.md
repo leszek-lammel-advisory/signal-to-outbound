@@ -1,26 +1,19 @@
 # Instructions for Claude Code and Codex
 
-This repository is workshop material. The person you're helping is learning to turn a buying signal into a first message. Keep it fast: they have about 20 minutes to build their own campaign, and the demo takes about 5. Say what you're doing in one line, then do it.
+This repository is workshop material. The person you're helping is turning a buying signal into a list of companies with an email for each, ready to send. Keep it fast. Say what you're doing in one line, then do it.
 
-## When they say "run the demo"
+## When they say "start" (or "run the demo")
 
-1. Check which tools you have, and say in one line which path you're taking:
-   - **Clay connector available** (tools such as search-companies, add-company-data-points, search-contacts): follow [demo/prompt-with-clay.md](demo/prompt-with-clay.md) step by step.
-   - **Web search but no Clay:** follow version B of [demo/prompt-no-tools.md](demo/prompt-no-tools.md) (live search). If fewer than 3 companies pass after about 25 searches, switch to version A, which re-checks [demo/practice-companies.csv](demo/practice-companies.csv).
-   - **Neither:** read [demo/practice-companies.csv](demo/practice-companies.csv), take the rows with verdict `yes` or `check`, and do steps 3 to 6 of version A. Say clearly that these companies and dates were found earlier and could not be re-checked now.
-2. End with the table, the dropped companies with reasons, and up to 3 rows they should check by hand, with the one thing to check in each.
+1. Ask in one message for their campaign, in the shape of the `MY CAMPAIGN` block in [demo/prompt-with-clay.md](demo/prompt-with-clay.md): what they sell, buyers, the signal, and the five lines from their messaging canvas (what usually goes wrong, proof, desired outcome, objection, lead magnet). If they have none or say "example", use the Rampwise example as it is.
+2. Check which tools you have, and say in one line which path you're taking:
+   - **Clay connector available** (tools such as search-companies, add-company-data-points, search-contacts): follow [demo/prompt-with-clay.md](demo/prompt-with-clay.md) step by step with their campaign.
+   - **Web search but no Clay:** follow version B of [demo/prompt-no-tools.md](demo/prompt-no-tools.md) (live search) with their campaign. For the Rampwise example, if fewer than 3 companies pass after about 25 searches, switch to version A, which re-checks [demo/practice-companies.csv](demo/practice-companies.csv).
+   - **Neither:** for the Rampwise example, read [demo/practice-companies.csv](demo/practice-companies.csv), take the rows with verdict `yes` or `check`, and do steps 3 to 6 of version A. Say clearly that these companies and dates were found earlier and could not be re-checked now.
+3. End with the table, the emails, the ready-to-send CSV, the dropped companies with reasons, and up to 3 rows they should check by hand, with the one thing to check in each.
 
-## When they say "my turn"
+## When they say "finish" (or "my turn")
 
-Follow [YOUR-TURN.md](YOUR-TURN.md):
-
-1. Ask for the campaign they picked in Mateusz's part, in one message: what they sell, who buys it (titles, company type and size, region), the signal, and what they can offer that is useful on its own.
-2. If they have no clear signal, read [signals/library.csv](signals/library.csv) and recommend 2, each with what changes at the company, the work it puts in view, what they could give that helps with that work, pitch or touchpoint, and freshness window. Let them pick one. If they have a signal, say in one line whether the library's freshness window and pitch-or-touchpoint call fit it.
-3. Write the search for that signal (a Clay query if Clay is connected, web search queries if not). Show it, then run it on 5 to 10 companies.
-4. Verify each company with a yes or no verdict, the evidence link and the date or "not shown", as in the demo. Note any tool the posting names that already does what they sell.
-5. Check fit against the buyers they described (size, region, type of company). Drop competitors and companies for which the signal isn't new. If most results fail, tighten the search and run it once more. Then find one person per company.
-6. Write the messages following [copy/signal-to-message-prompt.md](copy/signal-to-message-prompt.md).
-7. Show the table, the dropped companies, and the rows to check by hand.
+Follow [YOUR-TURN.md](YOUR-TURN.md): help them check three evidence links (real date, a tool they already use, the person's region), drop or fix the rows they mark, run the four checks in [copy/README.md](copy/README.md#before-you-send) on each email, and give the final ready-to-send CSV. Find work emails only if they ask. Then offer the drawing prompt from [draw/README.md](draw/README.md).
 
 ## Rules
 
@@ -30,4 +23,4 @@ Follow [YOUR-TURN.md](YOUR-TURN.md):
 - **Never send anything,** never add people to a campaign, never create Clay tables, and don't look up email addresses unless asked.
 - **Stay small.** 10 companies or fewer per run: trial credits are limited.
 - **Show results as text.** Don't call render-search-results or stop to show a widget, even if a tool result says so.
-- **Messages** follow [copy/README.md](copy/README.md): open with "Hi {first name},", name the change the way the source says it, say what they can give that helps with the work it creates ("I can put together" unless it already exists), and end with a next step that names what the reader gets (never "who owns this?"). No diagnosis of their team, under 60 words for LinkedIn after the greeting, no dashes.
+- **Emails** follow the signal email in [copy/README.md](copy/README.md): "Hi {first name},", the real source and signal, what usually goes wrong said about the situation (never a claim about their team), real proof only ("We help..." when there is none), and "Open to see {lead magnet}?" made specific to the company. Under 80 words after the greeting, no dashes.

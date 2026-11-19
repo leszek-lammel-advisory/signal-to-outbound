@@ -107,6 +107,37 @@ The copy notes, the prompts and the 30 library angles now follow the outbound co
 
 - **What the copy can't fix:** no posting date was found for any of the 7. Three of them are postings we had already found to be old or re-posted in runs 2 to 5 (Capmo, Alasco, Peec AI). A well-written message about a stale signal is still a stale message: open the links and find the real date before you send.
 
+## Run 9, 19 November: the signal email from the ICP & messaging session
+
+The prompts now write the signal email from the morning's ICP & messaging session (Woodpecker), filled from a `MY CAMPAIGN` block, and end with a ready-to-send CSV.
+
+**With Clay, in claude.ai, the Rampwise example.** About 3 minutes, 6 permission prompts. 10 companies found, 6 kept, a person found at 4. Two of those people had started in the role in the last 6 months, a second signal. Every email followed the template, with line 2 specific to that company's buyers:
+
+> Subject: Munich SDR ramp
+>
+> Hi {first name},
+>
+> I saw on your careers page that DataGuard is hiring a Sales Development Representative in Munich.
+> New SDRs usually hear their first 'our auditor covers that' from a CISO on a live call. How will you get past that?
+> We helped 6 German B2B software companies get new SDRs booking first meetings within 3 weeks without the sales manager running every roleplay.
+> Open to see a practice call with a CISO at a mid-sized company facing NIS2?
+
+> Hi {first name},
+>
+> I saw on your job board that RobCo is hiring a Sales Development Representative in Munich.
+> New SDRs usually hear 'robots don't pay off for us' from a plant manager on their first live calls. How will you get past that?
+> We helped 6 German B2B software companies get new SDRs booking first meetings within 3 weeks without the sales manager running every roleplay.
+> Open to see a practice call with a plant manager at a mid-sized metalworking company?
+
+What still needs you:
+
+- **No posting dates.** Clay found none for the 6, and two of them (Alasco, Peec AI) are postings we already know are old or re-posted. Check `datePosted` before you send.
+- **The wrong person.** At one company the person found runs sales for North America from New York; the role is in Düsseldorf. The run flagged it under rows to check by hand.
+- **Line 3 is the same in every email.** That's expected when the proof is fixed. It's the one line to make true for your own company.
+- **Two evidence links** pointed at a jobs overview or a different country's careers page, not the posting itself.
+
+**Without Clay, version B, a participant's own campaign** (a made-up localisation service for online shops entering new markets): 1 company kept out of 12 checked, in about 7 minutes. 11 of 22 page reads were blocked or gone, and the prompt dropped those rows instead of guessing. The email followed the template and offered to rewrite one of the shop's own product pages for the new market. So: without Clay, expect a short list, and use version A to practise if yours comes back empty.
+
 ## People
 
 For the 10 companies in run 1, the people search found a sales development leader at 8. The strongest accounts had a second signal: the leader had started in the role recently. SoSafe's Senior SDR Manager started in October 2026, and Peec AI's Head of Sales EMEA in September 2026.
@@ -117,7 +148,7 @@ We left out names on purpose. Your AI will show them to you.
 
 ## Example first messages
 
-These follow the signal pattern in [the copy notes](../copy/README.md#3-the-signal-pattern-change-to-practical-help): the change, what Rampwise can give, the next step. After the greeting, that's Mateusz's two lines and one question. Rampwise and its offer are made up.
+These are from run 7, before we switched to the signal email (run 9 shows the current format). They follow the signal pattern in [the copy notes](../copy/README.md#3-the-signal-pattern-change-to-practical-help): the change, what Rampwise can give, the next step. After the greeting, that's Mateusz's two lines and one question. Rampwise and its offer are made up.
 
 **SoSafe**, three SDR roles for DACH:
 

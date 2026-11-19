@@ -2,7 +2,7 @@
 
 30 buying signals in three levels. Each one says what it usually means, how long it stays fresh, whether it's a pitch or a touchpoint, how to find it with Clay and without, and an angle for the first message.
 
-Angles are starting points, not templates. Most follow the signal pattern in [the copy notes](../copy/README.md#3-the-signal-pattern-change-to-practical-help): the change, what you can give them, the next step. Put "Hi {first name}," in front. Replace every [bracket] with a real fact you found, or don't send the message. Say "I can put together" unless the thing already exists.
+Angles are starting points, not templates. In [the signal email](../copy/README.md#the-signal-email), the signal fills line 1 and the angle gives you ideas for the lead magnet in the last line. Replace every [bracket] with a real fact you found, or don't send the message. Say "I can put together" unless the thing already exists.
 
 The same list as a file for your AI: [library.csv](library.csv).
 

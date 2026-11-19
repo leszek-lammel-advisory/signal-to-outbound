@@ -1,61 +1,44 @@
-# Build your campaign: 20 minutes
+# Finish your list: 25 minutes
 
-Start from the campaign you picked in Mateusz's part. No campaign idea yet? Run [the demo](demo/README.md) first, then swap in your product, or keep Rampwise and pick a different signal.
+You started a run at the beginning ([START.md](START.md)). Now turn it into a list you'd actually send.
 
-**Claude Code or Codex:** type `my turn` and [AGENTS.md](AGENTS.md) walks you through the same steps.
+**Claude Code or Codex:** type `finish` and [AGENTS.md](AGENTS.md) walks you through the same steps.
 
-## 0 to 3 minutes: put your campaign into four lines
+## 0 to 5 minutes: read the result
 
-```text
-I sell: [what your product does, in one or two sentences]
-Buyers: [titles, type and size of company, region]
-The signal: [what happens at a company that makes now a good moment to write]
-Free offer: [something useful on its own that you can send or do: a sample, a check, a comparison]
-```
+Scroll to the table. If the run stopped to ask you something, answer it. If it stopped on a Clay permission prompt, click **Always allow** and type `continue`.
 
-The free offer is what your message is built around. It's the difference between "who owns onboarding?" and "want me to build your new rep a practice call with one of your buyers?". Say "I can put together" unless it already exists.
+Fewer than 3 companies? Ask: `Run the search once more with a wider region or size, and show me the search first.`
 
-**No clear signal in your idea?** Attach [signals/library.csv](signals/library.csv), paste your first two lines, and add:
+## 5 to 15 minutes: check the list
 
-```text
-Read the attached buying-signal library.
-Pick the 2 signals most likely to mean a company needs my product NOW.
-For each one tell me:
-- what changes at the company and the work it puts in view, in one sentence;
-- what I could give them that helps with that work;
-- pitch or touchpoint for my product;
-- how fresh it has to be;
-- how you would find 10 companies with it this week (with Clay, and without).
-```
+Open three evidence links yourself. For each, check:
 
-Pick one.
+- **The real date.** Most job pages hide it: view the page source and search for `datePosted`. A filter's "last 30 days" is not a fact. In our test runs, 4 of 5 roles were older than the search said.
+- **A tool they already use** for what you sell. In one test, the job post named the competing tool, and the AI pitched them anyway.
+- **The person.** Right region, still in the role.
 
-## 3 to 12 minutes: run it
+Tell the AI which rows were wrong: `Drop rows 2 and 5: the postings are from last year. Row 4: the person is in the UK, find someone in Germany.`
 
-Open a new chat. Paste a demo prompt ([with Clay](demo/prompt-with-clay.md), or version B of [the one without](demo/prompt-no-tools.md#version-b-search-live)), replace THE SELLER and THE SIGNAL with your four lines, and add this at the top:
+## 15 to 20 minutes: fix the emails
 
-```text
-Run this for my product and my signal, not the example.
-Write the search, the check, the people search and the messages for my product and buyers.
-Show me the search before you run it. Use 5 to 10 companies.
-In the check, also note any tool the posting names that already does what I sell.
-```
+Run [the four checks](copy/README.md#before-you-send) on each email. The two that fail most:
 
-The AI rewrites the search, the check and the people search to match. It did in our test.
+- Line 2 says something about *their* team you can't know. Rewrite it about the situation.
+- Line 3 has a number that isn't yours. Use `We help...` instead.
 
-**Already ran the demo in this chat?** Paste your four lines and the block above. That's enough.
+Ask the AI: `Rewrite emails 1 and 3: line 2 claims a problem we can't see.`
 
-Keep it to 10 companies or fewer. It's enough to learn from and it saves trial credits.
+## 20 to 23 minutes: export
 
-## 12 to 18 minutes: check and write
+Ask: `Give me the final ready-to-send list as CSV.` It has the company, the person, their LinkedIn, the evidence link, the subject and the email.
 
-1. Open three evidence links yourself. Mark every row where the AI was wrong. Look for the real posting date (page source, `datePosted`) and for any tool they already use for what you sell. In our test, a job post named the competing tool the company already uses, and the AI pitched them anyway.
-2. For the rows that hold up, run [the signal-to-message prompt](copy/signal-to-message-prompt.md), or ask your AI to rewrite its messages using it.
-3. Run [the checks](copy/README.md#6-before-you-send-fix-the-earliest-wrong-decision) on your best message: delete the signal sentence, and if the rest reads the same, the signal is decoration.
+Sending by email and have Clay credits left? Ask: `Find work emails for these people.` It costs credits, so do it only for the rows you'll send.
 
-## 18 to 20 minutes: pick one
+## 23 to 25 minutes: draw your workflow
 
-Write down:
+Open [the drawing page](draw/README.md), copy its prompt into the same chat, paste the answer into the page, and download your workflow as a picture, with the logos of the tools you used.
 
-- **Your best message** and the signal behind it. We'll read a few out loud.
-- **One thing the AI got wrong** that you'd have sent if you hadn't checked.
+## Then
+
+Pick your best email and one thing the AI got wrong that you'd have sent without checking. We'll read a few out loud.

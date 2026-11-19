@@ -1,10 +1,60 @@
 # From signal to message
 
-These notes come from the outbound copy library we use for client campaigns. The short version: a message is worth reading when the reader gets something useful from it. A signal tells you when to write and what to offer. It does not tell you the reader has a problem.
+The message format is the **signal email from the ICP & messaging session** (Woodpecker), so the day stays one method: your canvas from that session fills the email, and your signal from the timing session opens it.
 
-- [signal-to-message-prompt.md](signal-to-message-prompt.md): a prompt that teaches your AI this method for your product.
+- [signal-to-message-prompt.md](signal-to-message-prompt.md): the prompt that writes it for one company or a list.
 
-## 1. Decide what you're giving them before you write the opener
+## The signal email
+
+```text
+Hi {first name},
+
+I saw in {source} that {company} is {signal}.
+
+{What usually goes wrong}. How will you get past that?
+
+We helped {number} {their industry} companies {desired outcome} without {objection}.
+
+Open to see {lead magnet}?
+```
+
+| Line | Where it comes from | Hold it to this |
+|---|---|---|
+| I saw in {source} that {company} is {signal}. | Your signal (timing and buying signals session) | A real source, said the way the source says it, with a date you checked. |
+| {What usually goes wrong}. How will you get past that? | Canvas, ICP: pains and failed outcomes | True of the situation ("most", "usually"), never a claim about this company. |
+| We helped {number} {their industry} companies | Canvas, about you: proof | Real numbers only. No proof? Write "We help {their industry} companies". Never invent one. |
+| {desired outcome} | Canvas, ICP: desired outcomes | What they want, in their words. |
+| without {objection}. | Canvas, ICP: fears and objections | The thing that usually stops them saying yes. |
+| Open to see {lead magnet}? | Canvas, about you: lead magnet | Something that exists, or that you'll build, made specific to this company. |
+
+### Written out for the demo seller (Rampwise is made up)
+
+> Subject: new SDRs in Munich
+>
+> Hi {first name},
+>
+> I saw on your careers page that DataGuard is hiring an SDR and a BDR in Munich.
+>
+> Most new reps meet their first data protection officer on a live call, before they've heard a real objection. How will you get past that?
+>
+> We helped 6 German B2B software companies get new SDRs booking meetings within 3 weeks, without the sales manager running every role-play.
+>
+> Open to see a practice call with a DPO at a mid-sized company, built for your new reps?
+
+### Before you send
+
+1. **Open the evidence link.** Is the signal real, still live, and recent? The search's date filter is not a fact. In our test runs, 4 of 5 "posted in the last 30 days" roles were older.
+2. **Delete the first line.** If the rest reads exactly the same, the signal is decoration. Make line 2 depend on it.
+3. **Check line 3.** Every number is real and yours to use.
+4. **Read the last line as the buyer.** Saying yes should get them something useful.
+
+---
+
+## Going further: from our copy library
+
+The signal email is one shape. The notes below are from the outbound copy library we use for client campaigns, for when you want to go deeper or the template doesn't fit your offer.
+
+### 1. Decide what you're giving them before you write the opener
 
 Ask: what could this person do, understand or judge after my message that was harder before it? Say it in plain words first.
 
@@ -19,7 +69,7 @@ Two rules keep this honest:
 - **"I have" or "I can prepare".** Say "I've put together" only if it exists. Otherwise "I can put together".
 - **No useful contribution, no message.** Work on the offer first. A better opener won't fix an empty offer.
 
-## 2. Read the signal: what happened, what it might mean, what you can help with
+### 2. Read the signal: what happened, what it might mean, what you can help with
 
 | | Example | In the message |
 |---|---|---|
@@ -33,7 +83,7 @@ Some events don't tell you which work they create. A new head of sales may be re
 
 Keep what the source says. "Plans to open two offices" is not "opened two offices".
 
-## 3. The signal pattern: change to practical help
+### 3. The signal pattern: change to practical help
 
 The reader should recognise the work in front of them and see how you could help, while staying free to decide whether they need it. Recognition, not diagnosis.
 
@@ -89,7 +139,7 @@ Rampwise sells an SDR ramp program. Its free offer: a practice call for the new 
 
 Line 1 uses the posting's own words: a task they stated. Line 2 says what Rampwise would prepare and for whom. It doesn't explain that new reps need training. The question names what Jonas gets.
 
-## 4. The real reference: our best-performing first email
+### 4. The real reference: our best-performing first email
 
 A first email from one of our new-hire campaigns, as sent, with the name removed. We count it as our best-performing copy flow so far. That's the owner's judgment about the flow, not a controlled test of this one email.
 
@@ -107,7 +157,7 @@ Why it works:
 - **The new role chose whom to write to.** It isn't the argument. The P.S. is incidental, not a rule to congratulate everyone.
 - **It's long, and it worked.** Length isn't quality. A shorter version must keep the customer, the situation, the decision and the offer.
 
-## 5. When the signal isn't the right lead: seven selling situations
+### 5. When the signal isn't the right lead: seven selling situations
 
 Pick by what you actually have. No case study means no peer result. No useful asset means don't promise a guide: offer a quote, a sample, a check or a focused conversation instead.
 
@@ -123,7 +173,7 @@ Pick by what you actually have. No case study means no peer result. No useful as
 
 Patterns can combine when that makes one argument stronger, such as a change followed by a matching result. They are not seven messages to send.
 
-## 6. Before you send: fix the earliest wrong decision
+### 6. Before you send: fix the earliest wrong decision
 
 Read the full message as the buyer would. When something is off, the cause is usually earlier than the wording.
 

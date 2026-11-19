@@ -1,13 +1,15 @@
 # Signal to outbound
 
-From a buying signal to a message someone wants to answer. Built for the "Outreach workflows" session at GTM Tech Week Berlin, 19 November 2026, by Leszek Lammel and Mateusz Sekta.
+From a buying signal to a list of companies with an email for each, ready to send. Built for the "Outreach workflows" session at GTM Tech Week Berlin, 19 November 2026, by Leszek Lammel and Mateusz Sekta.
+
+**Start now: [START.md](START.md).** It takes 8 minutes to set up and runs while we talk.
 
 What's in here:
 
-- **A buying signal library.** 30 signals. For each one: what it usually means, how long it stays fresh, how to find it with Clay and without, and an angle for the first message.
-- **10 agentic workflows.** The same pattern applied to different signals, each shown with Clay and without.
-- **Copy notes from our outbound library**: the signal pattern, our best-performing first email, seven selling situations, and one prompt that teaches your AI to write from a signal.
-- **A demo that runs in about 5 minutes** in Claude, ChatGPT, Claude Code or Codex.
+- **One prompt that builds your list**, with a Clay trial or without: it finds companies with your signal, checks each one, finds the person and writes the signal email.
+- **The signal email** from the ICP & messaging session, mapped to your canvas, plus notes from our copy library.
+- **A buying signal library.** 30 signals: what each usually means, how long it stays fresh, and how to find it with Clay and without.
+- **10 agentic workflows**, each with Clay and without, and [a page that draws your own workflow](draw/README.md) with the tools' logos.
 - **A tool map** for when you want to run this every day instead of once.
 
 ## The flow
@@ -31,14 +33,9 @@ Step 2 is where most automated outbound goes wrong. In our demo run, a Clay sear
 
 ## Start here
 
-| You have | Do this |
-|---|---|
-| Claude or ChatGPT, plus a Clay account | Connect Clay ([setup](demo/README.md#path-a-claude-or-chatgpt-with-clay)), then paste [the Clay demo prompt](demo/prompt-with-clay.md) |
-| Claude or ChatGPT, no Clay | Attach [the practice file](demo/practice-companies.csv) and paste version A of [the no-tools prompt](demo/prompt-no-tools.md). It checks our list again with web search |
-| Claude Code or Codex | Clone this repo, open it, and type `run the demo` |
-| Nothing works | Open [demo/practice-companies.csv](demo/practice-companies.csv) and check the links by hand |
+**[START.md](START.md): 8 minutes.** Open Claude or ChatGPT, paste the prompt with your campaign from today, and let it run. With a Clay trial or without.
 
-Then do [your turn](YOUR-TURN.md): the same flow for your own product.
+Then [finish your list](YOUR-TURN.md): check it, fix the emails, export it ready to send, and [draw your workflow](draw/README.md).
 
 ## What's inside
 
@@ -46,10 +43,12 @@ Then do [your turn](YOUR-TURN.md): the same flow for your own product.
 |---|---|
 | [signals/](signals/) | The library: [library.md](signals/library.md) to read, [library.csv](signals/library.csv) to give to an AI |
 | [workflows/](workflows/) | 10 agentic workflows, plus how an always-on version runs |
-| [copy/](copy/) | The copy notes and the [signal-to-message prompt](copy/signal-to-message-prompt.md) |
+| [copy/](copy/) | The signal email, our copy notes and the [signal-to-message prompt](copy/signal-to-message-prompt.md) |
 | [demo/](demo/) | The demo, the prompts and our last run |
 | [TOOLS.md](TOOLS.md) | Which tool does which job, with and without Clay |
-| [YOUR-TURN.md](YOUR-TURN.md) | Build your own campaign in 20 minutes |
+| [START.md](START.md) | Start your run in 8 minutes |
+| [YOUR-TURN.md](YOUR-TURN.md) | Finish your list in 25 minutes |
+| [draw/](draw/README.md) | Draw your workflow with the tools' logos |
 | [AGENTS.md](AGENTS.md) | Instructions for Claude Code and Codex when you open this repo |
 
 ## Rules that hold for every workflow

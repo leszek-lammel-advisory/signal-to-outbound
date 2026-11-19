@@ -6,19 +6,19 @@ Today you run everything by hand in a chat. This page is for later: what to use 
 
 ## One tool per job
 
-| Job | With Clay | Without Clay |
+| Job | With <img src="logos/clay.png" width="20" height="20" alt=""> Clay | Without Clay |
 |---|---|---|
-| Find companies with a signal | Clay company search: job posts, new hires, headcount growth, tech stack, funding | Your AI with web search; careers pages and job boards (Ashby, Greenhouse, Personio, LinkedIn Jobs, StepStone); Crunchbase or Dealroom for funding; BuiltWith or Wappalyzer for tech stack |
-| Verify the signal | A Custom data point (Clay's research agent reads the source) | Your AI opens and reads the source page |
-| Check fit | Clay company data (size, industry, location), plus a Custom data point for anything else | LinkedIn company page and website, read by your AI |
-| Find the person | Clay people search | LinkedIn Sales Navigator, or LinkedIn search through your AI |
-| Find the email | Clay's email waterfall (it tries several providers in turn) | An email finder such as Prospeo, Findymail, Hunter or Apollo |
-| Write the message | Your AI in chat, or an AI column in a Clay table | Your AI with [the signal-to-message prompt](copy/signal-to-message-prompt.md) |
-| Approve before sending | A Slack message with the signal, the link and the draft | Same |
-| Send email | Instantly, Smartlead or lemlist | Same |
-| Send on LinkedIn | HeyReach or lemlist | Same |
-| Track replies and deals | Your CRM: HubSpot, Attio, Pipedrive | Same |
-| Run it on a schedule | Clay scheduled sources and webhooks | n8n or Make, or a scheduled Claude Code or Codex agent |
+| Find companies with a signal | <img src="logos/clay.png" width="20" height="20" alt=""> Clay company search: job posts, new hires, headcount growth, tech stack, funding | Your AI with web search; careers pages and job boards (<img src="logos/ashby.png" width="20" height="20" alt=""> Ashby, <img src="logos/greenhouse.png" width="20" height="20" alt=""> Greenhouse, <img src="logos/personio.png" width="20" height="20" alt=""> Personio, <img src="logos/linkedin.png" width="20" height="20" alt=""> LinkedIn Jobs, StepStone); <img src="logos/crunchbase.png" width="20" height="20" alt=""> Crunchbase or <img src="logos/dealroom.png" width="20" height="20" alt=""> Dealroom for funding; <img src="logos/builtwith.png" width="20" height="20" alt=""> BuiltWith or <img src="logos/wappalyzer.png" width="20" height="20" alt=""> Wappalyzer for tech stack |
+| Verify the signal | A Custom data point (<img src="logos/clay.png" width="20" height="20" alt=""> Clay's research agent reads the source) | Your AI opens and reads the source page |
+| Check fit | <img src="logos/clay.png" width="20" height="20" alt=""> Clay company data (size, industry, location), plus a Custom data point for anything else | <img src="logos/linkedin.png" width="20" height="20" alt=""> LinkedIn company page and website, read by your AI |
+| Find the person | <img src="logos/clay.png" width="20" height="20" alt=""> Clay people search | <img src="logos/linkedin.png" width="20" height="20" alt=""> LinkedIn Sales Navigator, or LinkedIn search through your AI |
+| Find the email | <img src="logos/clay.png" width="20" height="20" alt=""> Clay's email waterfall (it tries several providers in turn) | An email finder such as <img src="logos/prospeo.png" width="20" height="20" alt=""> Prospeo, <img src="logos/findymail.png" width="20" height="20" alt=""> Findymail, <img src="logos/hunter.png" width="20" height="20" alt=""> Hunter or <img src="logos/apollo.png" width="20" height="20" alt=""> Apollo |
+| Write the message | Your AI in chat, or an AI column in a <img src="logos/clay.png" width="20" height="20" alt=""> Clay table | Your AI with [the signal-to-message prompt](copy/signal-to-message-prompt.md) |
+| Approve before sending | A <img src="logos/slack.png" width="20" height="20" alt=""> Slack message with the signal, the link and the draft | Same |
+| Send email | <img src="logos/instantly.png" width="20" height="20" alt=""> Instantly, <img src="logos/smartlead.png" width="20" height="20" alt=""> Smartlead or <img src="logos/lemlist.png" width="20" height="20" alt=""> lemlist | Same |
+| Send on <img src="logos/linkedin.png" width="20" height="20" alt=""> LinkedIn | <img src="logos/heyreach.png" width="20" height="20" alt=""> HeyReach or <img src="logos/lemlist.png" width="20" height="20" alt=""> lemlist | Same |
+| Track replies and deals | Your CRM: <img src="logos/hubspot.png" width="20" height="20" alt=""> HubSpot, <img src="logos/attio.png" width="20" height="20" alt=""> Attio, <img src="logos/pipedrive.png" width="20" height="20" alt=""> Pipedrive | Same |
+| Run it on a schedule | <img src="logos/clay.png" width="20" height="20" alt=""> Clay scheduled sources and webhooks | <img src="logos/n8n.png" width="20" height="20" alt=""> n8n or <img src="logos/make.png" width="20" height="20" alt=""> Make, or a scheduled <img src="logos/claude.png" width="20" height="20" alt=""> Claude Code or <img src="logos/openai.png" width="20" height="20" alt=""> Codex agent |
 
 ## At scale, with Clay
 
