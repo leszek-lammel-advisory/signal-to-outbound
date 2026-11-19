@@ -25,7 +25,8 @@ When they started in this role (or "not known"):
 STEPS
 1. Decode. In one sentence: what does this signal usually mean for a company like this one?
    What changes for this person in the next 1 to 3 months?
-2. Check freshness. If the signal is older than 90 days, or the evidence doesn't support it, stop and say "skip" with the reason.
+2. Check freshness and fit. If the signal is older than 90 days, the evidence doesn't support it, or the evidence
+   shows they already use a tool that does what my product does, stop and say "skip" with the reason.
 3. Bridge. Name the one part of my product that helps with exactly that change.
    If nothing fits, stop and say "skip: no honest connection".
 4. Choose: pitch (the signal is itself a reason to buy, so name the problem and the offer)

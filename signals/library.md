@@ -86,7 +86,7 @@ Something changes at one company. Find the company first, then the person who ow
 - **What it usually means:** The description shows their stack, their pain or the project the hire is for. Recruiters write it in plain words.
 - **Good for sellers of:** Anything the job description names: a tool you replace, a process you fix
 - **Usually a:** pitch
-- **Find it with Clay:** Company search: jobs.exists(job_description contains ("[tool or phrase]") and job_posted_date >= today() - interval 30 days). Add company_size and industry filters: without them this returns the biggest employers first (SAP, Bosch).
+- **Find it with Clay:** Company search: jobs.exists(job_description contains ("[tool or phrase]") and job_posted_date >= today() - interval 30 days). Add company_size and industry filters: without them this returns the biggest employers first (SAP, Bosch). Read the posting for tools they already use: a post that names a competitor needs a different message.
 - **Find it without Clay:** Search the phrase on job boards: "[tool]" "[role]" site:jobs.ashbyhq.com, or ask your AI to read the careers page.
 - **Message angle:** Your [role] posting mentions [project]. Are you building that in-house or with a partner?
 
@@ -126,7 +126,7 @@ Something changes at one company. Find the company first, then the person who ow
 - **What it usually means:** A new market means a new go-to-market: hiring locally, localising, finding first customers, setting up legal and payroll.
 - **Good for sellers of:** Market entry, localisation, local hiring, payroll and legal, outbound agencies
 - **Usually a:** pitch
-- **Find it with Clay:** Company search: jobs.exists(location contains "[new country]" and job_posted_date >= today() - interval 60 days) plus a headquarters country that is not the new one and a company_size filter, then a Custom data point: 'Has this company announced expansion into [country]? Is it new for them? Link the source.'
+- **Find it with Clay:** Company search: jobs.exists(location contains "[new country]" and job_posted_date >= today() - interval 60 days) plus a headquarters country that is not the new one and a company_size filter, then a Custom data point: 'Has this company announced expansion into [country]? Is it new for them? Link the source.' Without a size filter this returns big multinationals first. Expect many to fail: companies that have been in the country for years, and roles copied across many countries.
 - **Find it without Clay:** Press releases, job posts in the new country, new office addresses on the website.
 - **Message angle:** Saw you're hiring your first people in [country]. Who's building the pipeline there?
 

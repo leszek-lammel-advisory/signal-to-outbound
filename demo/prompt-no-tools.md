@@ -42,8 +42,9 @@ Start by stating today's date. Count 30 days back from it.
 
 5. Write the first message for each company you kept, in English. Rules:
    - Three lines, no greeting or sign-off: two sentences and one direct question. Under 50 words in total.
-   - Line 1 names the specific posting (role and city or market). Line 2 says what it likely means for them,
-     and how Rampwise helps with that, in plain words.
+   - Line 1 names the specific posting (role and city or market). Line 2 says what it likely means for this company,
+     in your own words and using what you found (two roles at once, a new leader, a new market),
+     and how Rampwise helps with that. Don't reuse the same line 2 for every company.
    - The question is easy to answer with yes, no or a name.
    - Use only facts you found or the seller facts above. No invented numbers, no results, no flattery.
 
@@ -102,8 +103,9 @@ Start by stating today's date. Count 30 days back from it.
 
 5. Write the first message for each company, in English. Rules:
    - Three lines, no greeting or sign-off: two sentences and one direct question. Under 50 words in total.
-   - Line 1 names the specific posting (role and city or market). Line 2 says what it likely means for them,
-     and how Rampwise helps with that, in plain words.
+   - Line 1 names the specific posting (role and city or market). Line 2 says what it likely means for this company,
+     in your own words and using what you found (two roles at once, a new leader, a new market),
+     and how Rampwise helps with that. Don't reuse the same line 2 for every company.
    - The question is easy to answer with yes, no or a name.
    - Use only facts you found or the seller facts above. No invented numbers, no results, no flattery.
 

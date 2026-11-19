@@ -24,28 +24,28 @@ For each one tell me:
 Then name one signal from the library that looks relevant but isn't, and why.
 ```
 
-Where you sit on Mateusz's quadrant (what you sell, and how big your market is) matters here. Add it to the prompt.
+If you placed yourself on Mateusz's quadrant during his part (what you sell, and how big your market is), add that as one more line.
 
 Pick one signal.
 
 ## 4 to 12 minutes: run it
 
-Take a demo prompt ([with Clay](demo/prompt-with-clay.md), or version B of [the one without](demo/prompt-no-tools.md#version-b-search-live)) and change two blocks:
-
-1. **THE SELLER:** your product, from the prompt above.
-2. **THE SIGNAL:** the signal you picked, and what it means.
-
-Then add this line before STEPS:
+**In the same chat as the demo,** paste this:
 
 ```text
-Before step 1, write the search for this signal and show it to me. Use it on 5 to 10 companies only.
+Now run the same six steps for my product and this signal: [the signal you picked].
+Write the search, the check, the people search and the messages for my product and buyers.
+Show me the search before you run it. Use 5 to 10 companies.
+In the check, also note any tool the posting names that already does what I sell.
 ```
+
+**In a new chat,** paste a demo prompt ([with Clay](demo/prompt-with-clay.md), or version B of [the one without](demo/prompt-no-tools.md#version-b-search-live)), replace THE SELLER and THE SIGNAL with yours, and add the four lines above at the top. The AI rewrites the search, the check and the people search to match. It did in our test.
 
 Keep it to 10 companies or fewer. It's enough to learn from and it saves trial credits.
 
 ## 12 to 18 minutes: check and write
 
-1. Open three evidence links yourself. Mark every row where the AI was wrong.
+1. Open three evidence links yourself. Mark every row where the AI was wrong. Look for the real posting date (page source, `datePosted`) and for any tool they already use for what you sell. In our test, a job post named the competing tool the company already uses, and the AI pitched them anyway.
 2. For the rows that hold up, run [the signal-to-message prompt](copy/signal-to-message-prompt.md), or ask your AI to rewrite its messages using it.
 3. Run [the swap test](copy/README.md#the-swap-test) on your best message.
 

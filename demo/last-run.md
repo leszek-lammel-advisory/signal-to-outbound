@@ -55,6 +55,18 @@ A second fresh agent ran [prompt-no-tools.md](prompt-no-tools.md) with web searc
 
 **Lesson:** "still open" is not "fresh". A role posted 10 weeks ago and still open is a weaker signal, and possibly one they can't fill. Find the real date before you write "you're hiring".
 
+## Run 5, 19 November: a participant's test in claude.ai
+
+We pasted the Clay prompt into a fresh claude.ai chat, as a participant would. It took 4 minutes, including about 90 seconds when Claude was waiting for a permission click hidden under the results table. 8 of 10 companies passed. n8n (1,388 employees) and Haiilo (role posted 78 days earlier) were dropped. Clay found a sales leader at 5 of the 8.
+
+Then we opened three links. Capmo and Alasco were marked "date not shown", but their page source said `datePosted` 30 September 2025 and 21 October 2025: over a year old. DataGuard's page shows no date at all. So 2 of the 3 postings we checked were roles that stay open all year, not new hires.
+
+**Lesson:** a missing date is not a recent date. Look in the page source before you believe a posting is new.
+
+We then ran version A of the no-Clay prompt in a fresh chat with the practice file. It took under 3 minutes and read 21 pages. Only 3 of 11 companies were kept, each with a point to check, because most roles were older than they looked. One surprise: Peec AI's own Ashby board says its SDR role was published on 5 November, but the same posting (same ID) appears on Antler's job board as posted on 30 June. The 5 November date was a re-post. **Even the company's own job board can show a re-post date.**
+
+The same test ran the own-product exercise for a made-up compliance tool. 3 of 10 companies held up, and one job post named the competing tool the company already uses. The AI pitched them anyway. The prompts now ask it to look for that.
+
 ## People
 
 For the 10 companies in run 1, the people search found a sales development leader at 8. The strongest accounts had a second signal: the leader had started in the role recently. SoSafe's Senior SDR Manager started in October 2026, and Peec AI's Head of Sales EMEA in September 2026.

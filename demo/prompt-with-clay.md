@@ -29,11 +29,12 @@ STEPS
 
 2. Verify the signal. Add a Custom company data point named "SDR hiring in DACH" with this description:
    "Find this company's currently open Sales Development Representative or Business Development Representative
-   job postings. Return the job title, the location of the role, the posting date if shown, and the URL
-   (prefer the company's own careers page or job board link over aggregators like Glassdoor or Indeed).
-   Verdict: 'yes' only if at least one open SDR/BDR role is based in Germany, Austria or Switzerland or covers
-   the DACH market, and was posted in the last 60 days or is still open with no date shown.
-   Otherwise 'no' with the reason."
+   job postings. Return the job title, the location of the role, the posting date (if the page doesn't show
+   one, look for datePosted in the page's data) and the URL (prefer the company's own careers page or job board
+   link over aggregators like Glassdoor or Indeed).
+   Verdict: 'yes' only if at least one open SDR/BDR role is based in Germany, Austria or Switzerland (whatever
+   market it sells to) or is remote and covers the DACH market, and was posted in the last 60 days or is still
+   open with no date shown. Otherwise 'no' with the reason."
    This takes one to two minutes. Read the results with get-task-context. If any still say
    "Running Enrichment", read again for just those companies (pass their entityIds); one can take about
    2 minutes. Do not go to step 3 until every company is done. If one is still running after 10 reads,
@@ -54,8 +55,9 @@ STEPS
 
 5. Write the first message for each company kept in step 3, including ones where step 4 found no person. Rules:
    - Three lines, no greeting or sign-off: two sentences and one direct question. Under 50 words in total, in English.
-   - Line 1 names the specific posting (role and market). Line 2 says what it likely means for them,
-     and how Rampwise helps with that, in plain words.
+   - Line 1 names the specific posting (role and market). Line 2 says what it likely means for this company,
+     in your own words and using what you found (two roles at once, a new leader, a new market),
+     and how Rampwise helps with that. Don't reuse the same line 2 for every company.
    - The question is easy to answer with yes, no or a name.
    - Use only facts you found or the seller facts above. No invented numbers, no results, no flattery.
    - If the person started recently, you may use that instead of the posting.
@@ -69,7 +71,7 @@ STEPS
 
 ## What it takes
 
-- **Time:** about 2 to 3 minutes. Step 2 is the slow one, about a minute for 10 companies.
+- **Time:** about 3 to 5 minutes. Step 2 is the slow one, one to two minutes for 10 companies. In claude.ai, add the time it takes you to click Allow for each Clay tool.
 - **Credits:** steps 1 and 4 cost close to nothing. Step 2 costs about 1 credit per company. A full run is about 12 credits.
 
 ## What to expect
@@ -78,4 +80,4 @@ On our test runs, between 3 and 8 of 10 companies survived step 2. Dropping comp
 
 The people search often finds a manager outside DACH (UK, New York) or nobody at all. The prompt flags the first. For the second, the message names the role, and you find the person yourself.
 
-Posting dates are rarely shown, so most signals will say "date not shown". Don't trust the search's "posted in the last 30 days" either: several companies it returned had posted their role 5 to 10 weeks earlier. When you check a row by hand, find the real date. A job board's "x days ago" label often shows when the listing was refreshed, not when it was posted.
+Posting dates are rarely shown, so most signals will say "date not shown". Don't trust the search's "posted in the last 30 days" either: several companies it returned had posted their role 5 to 10 weeks earlier. When you check a row by hand, find the real date. A job board's "x days ago" label often shows when the listing was refreshed, not when it was posted. Most job pages hide the date: view the page source and search for `datePosted`. In our 19 November test, Capmo's and Alasco's postings came back as "date not shown", and their page source said 30 September 2025 and 21 October 2025.

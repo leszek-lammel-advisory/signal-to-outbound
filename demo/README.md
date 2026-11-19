@@ -24,6 +24,7 @@ In Mateusz's terms this is "signal-based at scale": a large market where only th
    - **Claude Code:** run `/plugin marketplace add clay-run/agent-plugins`, then `/plugin install clay@clay-plugins`, then `/clay:setup`.
 3. Check it works: ask "Which Clay workspace am I connected to?"
 4. Paste [prompt-with-clay.md](prompt-with-clay.md).
+5. Claude asks before each Clay tool it uses. Click **Always allow** for Clay, or you'll click **Allow once** 5 or 6 times. If it says "running a command" for over a minute and nothing new appears, scroll down or click that line: it's usually waiting for your click.
 
 You don't build any Clay tables. The connector searches Clay's company, people and job data and runs research for you, and the results come back in the chat.
 
@@ -52,7 +53,7 @@ Pick three rows and open the job links yourself.
 
 - Is the role really in DACH?
 - Is it still open?
-- Is it recent? Find the real date: the search's "posted in the last 30 days" is often wrong.
+- Is it recent? Find the real date: the search's "posted in the last 30 days" is often wrong, and most job pages hide the date. View the page source (Cmd+Option+U on a Mac, Ctrl+U on Windows) and search for `datePosted`. In our 19 November test, 2 of the 3 postings we opened said "date not shown" in the table and were over a year old in the source.
 - Does the person you'd contact own SDR onboarding at that company?
 
 Mark every row where the AI was wrong. That's the most important thing you'll learn today. Our own run is in [last-run.md](last-run.md).
