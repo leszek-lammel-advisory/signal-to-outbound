@@ -1,6 +1,6 @@
 # Instructions for Claude Code and Codex
 
-This repository is workshop material. The person you're helping is learning to turn a buying signal into a first message. Keep it fast: they have about 10 minutes for the demo and 30 for their own run. Say what you're doing in one line, then do it.
+This repository is workshop material. The person you're helping is learning to turn a buying signal into a first message. Keep it fast: they have about 10 minutes for the demo and 20 for their own run. Say what you're doing in one line, then do it.
 
 ## When they say "run the demo"
 

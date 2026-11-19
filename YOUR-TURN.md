@@ -1,10 +1,10 @@
-# Your turn: 30 minutes
+# Your turn: 20 minutes
 
-Now do it for your own product. No product of your own? Keep using Rampwise from the demo and pick a different signal.
+After the 10-minute demo, do it for your own product. No product of your own? Keep using Rampwise from the demo and pick a different signal.
 
 **Claude Code or Codex:** type `my turn` and [AGENTS.md](AGENTS.md) walks you through the same steps.
 
-## 0 to 5 minutes: pick your signal
+## 0 to 4 minutes: pick your signal
 
 Paste this into your AI and attach [signals/library.csv](signals/library.csv):
 
@@ -28,7 +28,7 @@ Where you sit on Mateusz's quadrant (what you sell, and how big your market is) 
 
 Pick one signal.
 
-## 5 to 15 minutes: run it
+## 4 to 12 minutes: run it
 
 Take a demo prompt ([with Clay](demo/prompt-with-clay.md), or version B of [the one without](demo/prompt-no-tools.md#version-b-search-live)) and change two blocks:
 
@@ -43,13 +43,13 @@ Before step 1, write the search for this signal and show it to me. Use it on 5 t
 
 Keep it to 10 companies or fewer. It's enough to learn from and it saves trial credits.
 
-## 15 to 25 minutes: check and write
+## 12 to 18 minutes: check and write
 
 1. Open three evidence links yourself. Mark every row where the AI was wrong.
 2. For the rows that hold up, run [the signal-to-message prompt](copy/signal-to-message-prompt.md), or ask your AI to rewrite its messages using it.
 3. Run [the swap test](copy/README.md#the-swap-test) on your best message.
 
-## 25 to 30 minutes: bring one to the discussion
+## 18 to 20 minutes: bring one to the discussion
 
 Write down three things:
 

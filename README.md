@@ -49,7 +49,7 @@ Then do [your turn](YOUR-TURN.md): the same flow for your own product.
 | [copy/](copy/) | 3 frameworks and the [signal-to-message prompt](copy/signal-to-message-prompt.md) |
 | [demo/](demo/) | The 10-minute demo, the prompts and our last run |
 | [TOOLS.md](TOOLS.md) | Which tool does which job, with and without Clay |
-| [YOUR-TURN.md](YOUR-TURN.md) | The 30-minute exercise |
+| [YOUR-TURN.md](YOUR-TURN.md) | The 20-minute exercise |
 | [AGENTS.md](AGENTS.md) | Instructions for Claude Code and Codex when you open this repo |
 
 ## Rules that hold for every workflow

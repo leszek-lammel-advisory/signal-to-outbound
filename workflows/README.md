@@ -18,7 +18,7 @@ For each workflow: the signal, where you start, the steps, and what makes it wor
 | 5 | [Expansion into a new country](#5-expansion-into-a-new-country) | Signal | A6 | Weekly |
 | 6 | [Competitor displacement](#6-competitor-displacement) | Your target list | A10 + I3, A16 | Weekly |
 | 7 | [Regulation deadline](#7-regulation-deadline) | The segment | I1 + A1 | Monthly |
-| 8 | [Trade fair exhibitors](#8-trade-fair-exhibitors) | The exhibitor list | I5 | Per event |
+| 8 | [Events: exhibitors and attendees](#8-events-exhibitors-and-attendees) | The exhibitor list and posts about the event | I5 | Per event |
 | 9 | [People talking about the problem](#9-people-talking-about-the-problem) | LinkedIn posts | P4, P5 | Daily |
 | 10 | [Your target list, re-checked weekly](#10-your-target-list-re-checked-weekly) | Your target list | Any 3 to 5 | Weekly |
 
@@ -79,7 +79,7 @@ Our other always-on campaign.
   4. Write to them personally.
 - **With Clay:** contact search with your customers' domains, `companyTenure: "past"` and a start date in the last 3 months.
 - **Without Clay:** save your past users as leads in Sales Navigator and watch for job-change alerts, or have your AI check their LinkedIn profiles monthly.
-- **What makes it work:** they already trust you. This is the highest reply rate of any workflow here, and most teams never set it up.
+- **What makes it work:** they already know you and your product, and most teams never set it up.
 
 ## 5. Expansion into a new country
 
@@ -119,18 +119,19 @@ Our other always-on campaign.
 - **Without Clay:** the regulator's scope rules, industry association member lists, careers pages.
 - **What makes it work:** the deadline is the same for everyone, so the message has to say something specific about this company's situation.
 
-## 8. Trade fair exhibitors
+## 8. Events: exhibitors and attendees
 
-- **Signal:** the company is exhibiting at an event your buyers attend ([I5](../signals/library.md#i5-a-trade-fair-or-conference-the-segment-attends)).
-- **Start from:** the exhibitor list.
+- **Signal:** the company exhibits at an event your buyers attend, or its people are going ([I5](../signals/library.md#i5-a-trade-fair-or-conference-the-segment-attends)).
+- **Start from:** the exhibitor list, and posts about the event.
 - **Steps:**
   1. Get the exhibitor directory from the event website.
-  2. Filter to your segment.
-  3. Find the person responsible for the event or for the area you sell into.
-  4. Write 2 to 3 weeks before the event with a reason to meet at the stand.
-- **With Clay:** paste the list into the chat, then use a Custom data point per company ("What is this company presenting at [event]?") and contact search.
-- **Without Clay:** ask your AI to read the exhibitor directory and research each company.
-- **What makes it work:** a concrete meeting point (hall, stand, time) and a reason that isn't "let's grab a coffee".
+  2. Find attendees without sponsoring: speakers, and people who post that they are going or comment on the event's posts in the weeks before it.
+  3. Filter both lists to your segment.
+  4. Find the person: for exhibitors, whoever runs the event or owns the area you sell into; for attendees, usually the person who posted.
+  5. Write 2 to 3 weeks before the event with a reason to meet there.
+- **With Clay:** paste the exhibitor list into the chat, then use a Custom data point per company ("What is this company presenting at [event]?") and contact search. For attendees, a Custom contact data point that asks whether this person posted about the event.
+- **Without Clay:** ask your AI to read the exhibitor directory and the speaker page, then search LinkedIn posts from the past month that name the event.
+- **What makes it work:** a concrete meeting point (hall, stand, session, time) and a reason that isn't "let's grab a coffee".
 
 ## 9. People talking about the problem
 
@@ -156,6 +157,17 @@ Our other always-on campaign.
 - **With Clay:** keep your list in a Clay table with the data points as columns and re-run them weekly. This is the one workflow where a table pays off.
 - **Without Clay:** an agent in Claude Code or Codex that reads your list, checks each signal with web search and writes a short report of what changed.
 - **What makes it work:** you stop writing to everyone every month and start writing to the 5% with a reason this week.
+
+## More examples
+
+Clay published its own list of 10 workflows GTM engineers are building with Clay, with recorded sessions at [clay.com/livestreams](https://www.clay.com/livestreams). Finding conference attendees without sponsoring is our workflow 8. Others worth a look:
+
+- Turning event lists into invites for a small VIP dinner.
+- Finding warm accounts already in your CRM.
+- Working out your ideal customer from your best customers.
+- Keeping lead scores current, with fewer AI calls per score.
+- Launching signal campaigns from Slack.
+- Turning buying signals into targeted ads.
 
 ---
 
