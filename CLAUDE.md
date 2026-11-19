@@ -1,19 +1,24 @@
 # Instructions for Claude Code and Codex
 
-This repository is workshop material. The person you're helping is turning a buying signal into a list of companies with an email for each, ready to send. Keep it fast. Say what you're doing in one line, then do it.
+This repository is workshop material. The person you're helping builds one outbound motion today: from a buying signal to a list of real companies with a ready-to-send email for each, plus a graph of the workflow. Keep it fast. Say what you're doing in one line, then do it.
 
-## When they say "start" (or "run the demo")
+## When they say "start" (or "setup")
 
-1. Ask in one message for their campaign, in the shape of the `MY CAMPAIGN` block in [demo/prompt-with-clay.md](demo/prompt-with-clay.md): what they sell, buyers, the signal, and the five lines from their messaging canvas (what usually goes wrong, proof, desired outcome, objection, lead magnet). If they have none or say "example", use the Rampwise example as it is.
-2. Check which tools you have, and say in one line which path you're taking:
-   - **Clay connector available** (tools such as search-companies, add-company-data-points, search-contacts): follow [demo/prompt-with-clay.md](demo/prompt-with-clay.md) step by step with their campaign.
-   - **Web search but no Clay:** follow version B of [demo/prompt-no-tools.md](demo/prompt-no-tools.md) (live search) with their campaign. For the Rampwise example, if fewer than 3 companies pass after about 25 searches, switch to version A, which re-checks [demo/practice-companies.csv](demo/practice-companies.csv).
-   - **Neither:** for the Rampwise example, read [demo/practice-companies.csv](demo/practice-companies.csv), take the rows with verdict `yes` or `check`, and do steps 3 to 6 of version A. Say clearly that these companies and dates were found earlier and could not be re-checked now.
-3. End with the table, the emails, the ready-to-send CSV, the dropped companies with reasons, and up to 3 rows they should check by hand, with the one thing to check in each.
+Run the setup in [START.md](START.md), the steps in its setup prompt, as written:
 
-## When they say "finish" (or "my turn")
+1. Say in one line which tools you have: the Clay connector, web search, or neither.
+2. Run the one free test from the setup prompt (Clay: one company search, limit 3, no data points; web: one job search). Say "Setup OK" or the one thing to fix.
+3. In three lines, say what they'll have at the end: a workflow run on 5 to 10 real companies, a picture of it with the tools' logos, and a ready-to-send CSV.
+4. End with Mateusz's four picks exactly as in the setup prompt (value proposition, group of target accounts, target persona, campaign idea, each with its hint), then stop. Do not research anything yet. If they say "use the example", answer the picks with the Rampwise example from the setup prompt.
 
-Follow [YOUR-TURN.md](YOUR-TURN.md): help them check three evidence links (real date, a tool they already use, the person's region), drop or fix the rows they mark, run the four checks in [copy/README.md](copy/README.md#before-you-send) on each email, and give the final ready-to-send CSV. Find work emails only if they ask. Then offer the drawing prompt from [draw/README.md](draw/README.md).
+## When they say "build" (or "finish", "my turn", "run the demo")
+
+Follow the build prompt in [BUILD.md](BUILD.md), step by step, with their four answers:
+
+1. **Variants:** read [signals/library.md](signals/library.md) and propose 2 or 3 workflows, each on a different signal you can actually find with the tools you have. Recommend one and stop.
+2. **Graph:** the JSON for [the drawing page](draw/README.md) in its exact format. Stop.
+3. **Run:** with the Clay connector, follow the Clay path in the build prompt (the worked example is [demo/prompt-with-clay.md](demo/prompt-with-clay.md)); with web search only, the web path (worked example: version B of [demo/prompt-no-tools.md](demo/prompt-no-tools.md)); with neither, and only for the Rampwise example, use [demo/practice-companies.csv](demo/practice-companies.csv) with version A and say these were found earlier and could not be re-checked now. End with the table, the emails, the CSV, the dropped companies and up to 3 rows to check by hand.
+4. **Check:** drop or fix the rows they mark, run the four checks in [copy/README.md](copy/README.md#before-you-send) and give the final CSV. Find work emails only if they ask.
 
 ## Rules
 

@@ -138,6 +138,33 @@ What still needs you:
 
 **Without Clay, version B, a participant's own campaign** (a made-up localisation service for online shops entering new markets): 1 company kept out of 12 checked, in about 7 minutes. 11 of 22 page reads were blocked or gone, and the prompt dropped those rows instead of guessing. The email followed the template and offered to rewrite one of the shop's own product pages for the new market. So: without Clay, expect a short list, and use version A to practise if yours comes back empty.
 
+## Run 10, 19 November: the new setup and build prompts, no Clay, a participant's own campaign
+
+We tested [START.md](../START.md) and [BUILD.md](../BUILD.md) with web search only and a made-up campaign: a service that registers and files EU VAT and OSS for German and Austrian online shops (20 to 200 employees) selling into other EU countries, for a Head of Finance or founder. Proof: none.
+
+- **Setup:** the web search test returned dated Berlin SDR postings with links, so "Setup OK". The library opened from its raw GitHub link.
+- **Variants:** A2 (a finance job post that names OSS or cross-border VAT), A6 (expansion to a new EU country) and I1 (an e-invoicing deadline). A2 was picked because job pages carry a date.
+- **Graph:** the JSON passed the drawing page's format: 4 stages, 7 steps, two decisions, only known tool ids.
+- **Run:** two job board searches, 8 candidates opened, **1 kept**: a Berlin direct-to-consumer health brand whose finance posting (datePosted 22 Oct) lists "Umsatzsteuer (inklusive OSS)" with the tax advisor. No person could be confirmed, so the row names the role. The email:
+
+> Subject: OSS at FORTĒA
+>
+> Hi {first name},
+>
+> I saw on arbeitnow that FORTĒA is hiring a Finance Manager in Berlin to handle Umsatzsteuer, including OSS, with your tax advisor.
+> Shops selling through Shopify and Amazon usually find the OSS filings grow faster than the finance team. How will you get past that?
+> We help direct-to-consumer brands file EU VAT and OSS on time without a full-time tax hire.
+> Open to see which EU countries your sales already make you file in, mapped on one page?
+
+What the 7 dropped rows show:
+
+- **Two "fresh" labels were refresh dates.** A board showed "14 hours" for a posting from 28 September and "1 day" for one from June 2025. Only datePosted in the page data told the truth.
+- **One posting named the tool that already does the job** (a VAT compliance tool next to DATEV). The rule to drop it worked.
+- **One posting had expired** two days earlier (validThrough). BUILD.md now tells the AI to check it.
+- **Fit:** one company with 630+ employees, one headquartered in Denmark, one HR platform, one internship post that never mentions VAT.
+
+So: a narrow signal on job boards yields 1 or 2 companies in 15 minutes. Two of the dropped shops (one selling in 19 European countries, one preparing a Swiss market entry) would have fitted the A6 expansion variant better. That is what the variants step is for: ask your AI which signal gives the most checkable companies with your tools, not only which one fits best.
+
 ## People
 
 For the 10 companies in run 1, the people search found a sales development leader at 8. The strongest accounts had a second signal: the leader had started in the role recently. SoSafe's Senior SDR Manager started in October 2026, and Peec AI's Head of Sales EMEA in September 2026.

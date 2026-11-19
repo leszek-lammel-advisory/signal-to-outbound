@@ -2,11 +2,11 @@
 
 From a buying signal to a list of companies with an email for each, ready to send. Built for the "Outreach workflows" session at GTM Tech Week Berlin, 19 November 2026, by Leszek Lammel and Mateusz Sekta.
 
-**Start now: [START.md](START.md).** It takes 8 minutes to set up and runs while we talk.
+**Start: [START.md](START.md) (3 minutes), then [BUILD.md](BUILD.md).**
 
 What's in here:
 
-- **One prompt that builds your list**, with a Clay trial or without: it finds companies with your signal, checks each one, finds the person and writes the signal email.
+- **A setup prompt and a build prompt**, with a Clay trial or without: your AI proposes workflows for your campaign, draws the one you pick, then finds companies with your signal, checks each one, finds the person and writes the signal email.
 - **The signal email** from the ICP & messaging session, mapped to your canvas, plus notes from our copy library.
 - **A buying signal library.** 30 signals: what each usually means, how long it stays fresh, and how to find it with Clay and without.
 - **10 agentic workflows**, each with Clay and without, and [a page that draws your own workflow](draw/README.md) with the tools' logos.
@@ -33,9 +33,10 @@ Step 2 is where most automated outbound goes wrong. In our demo run, a Clay sear
 
 ## Start here
 
-**[START.md](START.md): 8 minutes.** Open Claude or ChatGPT, paste the prompt with your campaign from today, and let it run. With a Clay trial or without.
+1. **[START.md](START.md): 3 minutes.** Open Claude or ChatGPT, paste the setup prompt. It tests your tools and ends with four picks: value proposition, target accounts, persona, campaign idea.
+2. **[BUILD.md](BUILD.md): 35 minutes.** Paste the build prompt in the same chat. Pick a workflow, [draw it](draw/README.md), run it on 5 to 10 real companies, check it, and export the list ready to send.
 
-Then [finish your list](YOUR-TURN.md): check it, fix the emails, export it ready to send, and [draw your workflow](draw/README.md).
+No campaign of your own? Type `use the example`: the made-up Rampwise campaign in [demo/](demo/) is the worked example.
 
 ## What's inside
 
@@ -44,10 +45,10 @@ Then [finish your list](YOUR-TURN.md): check it, fix the emails, export it ready
 | [signals/](signals/) | The library: [library.md](signals/library.md) to read, [library.csv](signals/library.csv) to give to an AI |
 | [workflows/](workflows/) | 10 agentic workflows, plus how an always-on version runs |
 | [copy/](copy/) | The signal email, our copy notes and the [signal-to-message prompt](copy/signal-to-message-prompt.md) |
-| [demo/](demo/) | The demo, the prompts and our last run |
+| [demo/](demo/) | The worked example (Rampwise): its prompts, a practice list and our test runs |
 | [TOOLS.md](TOOLS.md) | Which tool does which job, with and without Clay |
-| [START.md](START.md) | Start your run in 8 minutes |
-| [YOUR-TURN.md](YOUR-TURN.md) | Finish your list in 25 minutes |
+| [START.md](START.md) | Setup in 3 minutes, ending with your four picks |
+| [BUILD.md](BUILD.md) | Build your campaign in 35 minutes: variants, graph, a run on real companies, the CSV |
 | [draw/](draw/README.md) | Draw your workflow with the tools' logos |
 | [AGENTS.md](AGENTS.md) | Instructions for Claude Code and Codex when you open this repo |
 
