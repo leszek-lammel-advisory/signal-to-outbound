@@ -41,7 +41,7 @@ A fresh agent ran the whole Clay prompt as a participant would, limit 10. All st
 - **No posting dates.** All 10 said "date not shown", so the freshness check could only ask whether the role was still open.
 - **Results moved again.** Haiilo had no open role in run 2 and one in Hamburg in run 3. Parloa's role was in Berlin in run 2 and in New York in run 3.
 
-**Fix:** the query in [prompt-with-clay.md](prompt-with-clay.md) now also filters on the job's location. In a test search it removed 5 of the 6 out-of-market companies and brought in 5 new ones in DACH.
+**Fix:** the query in [prompt-with-clay.md](prompt-with-clay.md) now also filters on the job's location. In a test search it removed 5 of the 6 out-of-market companies and brought in 5 new ones in DACH. A full rerun with the fixed prompt passed 8 of 10. The remaining problems were in the people step: a manager in the UK or New York for a German role at 3 companies, nobody found at 3, and one company matched to a different company with a similar domain (fixed by searching people by LinkedIn company URL instead of domain).
 
 ## Run 4, 19 November: no Clay, web search only
 

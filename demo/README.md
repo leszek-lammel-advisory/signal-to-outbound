@@ -7,7 +7,7 @@ You run one signal workflow from start to finish for a made-up company. Your AI 
 **Rampwise** (made up) gets newly hired SDRs at B2B software companies to their first booked meetings faster. It runs a 4-week ramp program: AI role-play calls built from the customer's own ICP and objections, weekly coaching, and a dashboard for the SDR manager.
 
 - **Sells to:** Heads of Sales Development, SDR or BDR managers, and VPs of Sales at B2B software companies with 50 to 500 employees in Germany, Austria and Switzerland (DACH).
-- **The signal:** the company posted an SDR or BDR job for the DACH market in the last 30 days.
+- **The signal:** the company posted an SDR or BDR job based in Germany, Austria or Switzerland in the last 30 days.
 - **What the signal means:** a new SDR starts in a few weeks. Until they ramp, the seat costs salary and books few meetings. Someone has to onboard them, usually the SDR manager.
 - **Second signal that makes it stronger:** the SDR leader started in the role in the last 6 months, so they are building the team their way.
 
